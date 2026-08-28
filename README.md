@@ -29,10 +29,17 @@ curl -X POST http://127.0.0.1:8000/chat -H 'Content-Type: application/json' -d '
 ## Docker
 
 ```bash
-docker build -t allen-agent .
-docker run -p 8000:8000 -e DEEPSEEK_API_KEY=sk-xxx \
-  -e DEEPSEEK_BASE_URL=https://api.deepseek.com/v1 \
-  -e DEEPSEEK_MODEL=deepseek-v4-flash allen-agent
+docker build -t allen-agent .                                          # 基于 python:3.13-slim，约 242MB
+docker run -d --name allen-agent -p 8000:8000 --env-file .env allen-agent
+```
+
+常用操作：
+
+```bash
+docker logs -f allen-agent     # 看日志
+docker stop allen-agent        # 停止
+docker start allen-agent       # 再次启动
+docker rm -f allen-agent       # 删除容器
 ```
 
 镜像里不含 `.env`（`.dockerignore` 已排除），密钥通过 `-e` 注入。
