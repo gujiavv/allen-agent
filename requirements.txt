@@ -1,5 +1,23 @@
-fastapi==0.104.1
+# --- Web 服务 ---
+fastapi==0.141.1
 uvicorn==0.24.0
-openai==1.6.1
+gradio==6.26.0
+
+# --- 大模型 ---
+# 百炼是 OpenAI 兼容协议，沿用 openai SDK。
+# 已从 1.6.1 升级到 3.x：langchain-openai 要求较新版本。
+openai==3.6.0
+# httpx 刻意不锁版本。原先锁 0.27.2 是因为 openai 1.6.1 不兼容 httpx>=0.28
+# （proxies 参数被移除），升级 openai 后该理由已不成立；继续锁反而会和
+# gradio / chromadb 的要求打架，让 pip 疯狂回溯直至 ResolutionImpossible。
+# 本项目只用到 httpx.Client(trust_env=False)，各版本行为一致。
+httpx
 python-dotenv==1.0.0
-httpx==0.27.2  # openai 1.6.1 不兼容 httpx>=0.28（proxies 参数被移除）
+
+# --- RAG ---
+# 刻意不装顶层的 langchain 和 langchain-community：代码里只用到下面这三个子包，
+# 装全家桶会白白撑大镜像。
+langchain-text-splitters==1.1.2
+langchain-chroma==1.1.0
+langchain-openai==1.6.0
+chromadb==1.5.9

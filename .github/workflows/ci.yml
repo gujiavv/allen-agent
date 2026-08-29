@@ -23,7 +23,10 @@ jobs:
 
       - name: 运行测试
         run: pytest tests/ -v
-        # 测试用 mock，不需要真实密钥；conftest.py 会注入占位值
+        env:
+          # 测试全部用 mock（大模型调用和向量检索都被替换掉），不需要真实密钥。
+          # conftest.py 会注入占位值，这里再关掉 Gradio 的遥测外连。
+          GRADIO_ANALYTICS_ENABLED: "False"
 
   docker:
     name: 镜像构建验证
@@ -31,26 +34,50 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: 确认向量索引已随仓库提交
+        # 索引不在仓库里 → 镜像里就没有 → 容器会静默降级成纯大模型模式，
+        # 接口和健康检查依然全绿，问题极难发现。所以在这里硬卡一道。
+        run: |
+          test -d vector_store || {
+            echo "❌ 仓库中缺少 vector_store/，RAG 将失效。请在本地执行 python ingest.py 后提交。"
+            exit 1
+          }
+          echo "✅ vector_store/ 存在（$(du -sh vector_store | cut -f1)）"
+
       - name: 构建镜像
         run: docker build -t allen-agent:ci .
 
-      - name: 冒烟测试（校验 $PORT 生效且服务能起来）
+      - name: 冒烟测试
         run: |
           docker run -d --name smoke -e PORT=9000 -p 9000:9000 \
-            -e DEEPSEEK_API_KEY=sk-smoke-test \
-            -e DEEPSEEK_BASE_URL=https://api.deepseek.com/v1 \
-            -e DEEPSEEK_MODEL=deepseek-v4-flash \
+            -e DASHSCOPE_API_KEY=sk-smoke-test \
+            -e DASHSCOPE_BASE_URL=https://example.invalid/compatible-mode/v1 \
+            -e DASHSCOPE_MODEL=qwen3.7-plus \
+            -e GRADIO_ANALYTICS_ENABLED=False \
             allen-agent:ci
-          for i in $(seq 1 30); do
+          for i in $(seq 1 45); do
             curl -sf http://127.0.0.1:9000/health && break
             sleep 1
           done
           echo
+
           curl -sf http://127.0.0.1:9000/health | grep -q '"ok"' || {
-            echo "健康检查失败，容器日志："; docker logs smoke; exit 1;
+            echo "❌ 健康检查失败，容器日志："; docker logs smoke; exit 1;
           }
           curl -sf http://127.0.0.1:9000/myapp | grep -q '张三丰' || {
-            echo "/myapp 校验失败"; docker logs smoke; exit 1;
+            echo "❌ /myapp 校验失败"; docker logs smoke; exit 1;
           }
-          echo "✅ 容器冒烟测试通过（监听 \$PORT=9000）"
+
+          # 关键：确认容器里的向量库真的加载成功了。
+          # 少了这一步，索引没进镜像时上面两个检查照样全绿，RAG 却是死的。
+          docker logs smoke 2>&1 | grep -q 'RAG 生效' || {
+            echo "❌ 容器内向量库未加载，RAG 未生效。容器日志："; docker logs smoke; exit 1;
+          }
+
+          # Gradio 页面能打开（/ui 会 307 跳到 /ui/，所以要跟随重定向）
+          curl -sfL http://127.0.0.1:9000/ui -o /dev/null || {
+            echo "❌ /ui 页面无法访问"; docker logs smoke; exit 1;
+          }
+
+          echo "✅ 冒烟测试通过：健康检查 / RAG 已加载 / Gradio 页面可访问"
           docker rm -f smoke

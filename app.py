@@ -1,61 +1,62 @@
 # app.py
+"""FastAPI 装配层：定义路由、挂载 Gradio 前端。业务逻辑都在 rag/ 和 llm.py 里。"""
+import logging
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from dotenv import load_dotenv
-import os
-import httpx
-from openai import OpenAI
 
-# 环境变量管理（用你的真实API Key）
-# export DEEPSEEK_API_KEY="sk-xxx"  # 命令行设置
-# 或者用 .env 文件
+import config
+from rag import pipeline
 
-app = FastAPI(title="我的Agent服务", version="1.0")
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """启动时加载向量库。加载不到不影响服务启动，只是降级为纯大模型模式。"""
+    if pipeline.init():
+        logger.info("向量库已加载，RAG 生效（阈值 %.2f）", config.RAG_SCORE_THRESHOLD)
+    yield
+
+
+app = FastAPI(title="我的Agent服务", version="2.0", lifespan=lifespan)
+
 
 class ChatRequest(BaseModel):
     message: str
 
+
+class Source(BaseModel):
+    title: str
+    url: str
+    category: str
+    score: float
+
+
 class ChatResponse(BaseModel):
     reply: str
-
-
-env_path = os.path.join(os.path.dirname(__file__), ".env")
-load_dotenv(env_path)
-api_key = os.getenv("DEEPSEEK_API_KEY")
-base_url = os.getenv("DEEPSEEK_BASE_URL")
-model = os.getenv("DEEPSEEK_MODEL")
-
-if not api_key:
-    raise ValueError("请在项目根目录的 .env 文件中配置 DEEPSEEK_API_KEY")
-
-# 初始化大模型客户端（以 DeepSeek 为例）
-# trust_env=False: 本机全局代理(HTTPS_PROXY)到 api.deepseek.com 的 TLS 握手会失败，
-# 所以让 HTTP 客户端直连、忽略环境变量里的代理。若你的网络必须走代理，改成 True。
-client = OpenAI(
-    api_key=api_key,
-    base_url=base_url,
-    http_client=httpx.Client(trust_env=False, timeout=60.0),
-)
+    # 走了哪条路：rag=基于知识库作答，llm=知识库里没有，用模型自身知识
+    mode: str = "llm"
+    sources: list[Source] = []
 
 
 @app.post("/chat", response_model=ChatResponse)
 async def chat(request: ChatRequest):
-    """核心Agent接口：接收消息，调用大模型，返回回复"""
+    """核心Agent接口：能从知识库检索到就用文档回答，否则退回大模型自身知识。"""
     try:
-        response = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": request.message}],
-            temperature=0.7
-        )
-        reply = response.choices[0].message.content
-        return ChatResponse(reply=reply)
+        reply, mode, sources = pipeline.answer(request.message)
+        return ChatResponse(reply=reply, mode=mode, sources=sources)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
 
 @app.get("/health")
 async def health():
     """健康检查接口，用于部署后验证服务是否正常"""
     return {"status": "ok"}
+
 
 @app.get("/myapp")
 async def myapp():
@@ -67,5 +68,13 @@ async def myapp():
                 },
             }
 
+
+# Gradio 页面挂在 /ui，与本服务同进程同端口。
+# 放在文件末尾：此时 app 上的路由都已注册完毕。
+from ui import mount_ui  # noqa: E402
+
+mount_ui(app)
+
 # 启动命令（本地测试用）：
 # uvicorn app:app --host 0.0.0.0 --port 8000
+# 页面地址：http://127.0.0.1:8000/ui

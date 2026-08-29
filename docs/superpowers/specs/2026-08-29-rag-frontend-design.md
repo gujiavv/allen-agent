@@ -172,9 +172,16 @@ class ChatResponse(BaseModel):
 ## 11. 前端设计
 
 - `gr.ChatInterface` 通过 `gr.mount_gradio_app(app, demo, path="/ui")` 挂载到现有 FastAPI 实例，同进程同端口
-- handler 内以 `httpx.post("http://127.0.0.1:${PORT}/chat", json={"message": ...})` 调用自身接口
+- handler 发一个真实的 HTTP 请求打到本服务的 `/chat`，完整经过路由、pydantic 校验与响应序列化
 
-  **权衡**：这多了一次本地 TCP 往返（约 1ms，可忽略）。换来的是 UI 走的代码路径与外部调用者完全一致，不会出现"页面能用但接口是坏的"这类偏差。已获用户确认。
+  **权衡**：UI 走的代码路径与外部调用者完全一致，不会出现"页面能用但接口是坏的"这类偏差。已获用户确认。
+
+  **实施期修订**：原计划 `httpx.post("http://127.0.0.1:${PORT}/chat")`，实测发现严重缺陷——
+  `PORT` 环境变量与 uvicorn 实际的 `--port` 参数是两个独立来源，不一致时自调用会静默打到
+  另一个端口上的**其他服务**（本地实测打进了 8000 端口的一条 SSH 隧道，返回了不相关的结果，
+  页面显示正常但 RAG 全部失效，且存在把用户提问发给第三方的风险）。
+  改为 `httpx.ASGITransport(app=app)`：请求仍完整走 `/chat` 的 ASGI 链路，但不猜端口、不经 TCP。
+  `config.PORT` 随之删除。回归测试见 `tests/test_routing.py::test_页面自调用不依赖端口`。
 - 回答下方展示 `mode` 徽标（📚 文档 / 🤖 模型）与可点击的原文链接列表
 - 错误以聊天气泡形式提示，不向用户抛 traceback
 

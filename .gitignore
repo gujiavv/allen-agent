@@ -6,3 +6,9 @@ __pycache__/
 .DS_Store
 .idea/
 .vscode/
+.pytest_cache/
+
+# 注意：vector_store/ 刻意【不】忽略。
+# Railway 从 GitHub 拉代码构建，索引不进版本库就进不了镜像，
+# 容器会静默降级成纯大模型模式（接口和健康检查全绿，但 RAG 失效）。
+# 重建索引：python ingest.py

@@ -4,4 +4,10 @@ venv/
 __pycache__/
 .git/
 .gitignore
+.github/
+.pytest_cache/
+tests/
+docs/
 README.md
+
+# 注意：vector_store/ 刻意【不】排除，Dockerfile 需要 COPY 它。
