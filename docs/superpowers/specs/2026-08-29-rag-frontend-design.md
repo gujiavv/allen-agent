@@ -193,7 +193,8 @@ class ChatResponse(BaseModel):
 
 升级时必须保留 `trust_env=False` 的绕代理处理——本机全局代理会导致 TLS 握手失败，这个约束在切换到百炼后依然存在，需实测确认。
 
-镜像体积预计从 242MB 增至约 450MB。
+**实施结果**：镜像从 242MB 增至 **940MB**，比设计时估的 450MB 高不少——gradio 会拉进 pandas(75MB) 和 numpy(67MB)，chromadb 会拉进 rust bindings(52MB)。
+构建时卸掉 chromadb 用不到的 kubernetes(82MB) 和 onnxruntime(58MB)，从 1.12GB 降到 940MB。卸载须与 pip install 同层，否则 Docker 分层累加不会缩小镜像；grpcio 不能卸，chromadb 的 telemetry 模块会顶层 import 它。
 
 ## 13. 错误处理
 
