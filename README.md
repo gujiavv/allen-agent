@@ -150,3 +150,21 @@ GRADIO_ANALYTICS_ENABLED=False
   自调用会静默打到 8000 上**别的**服务；实测曾打进一条 SSH 隧道并返回了毫不相干的结果，
   页面看着正常但 RAG 全部失效。`tests/test_routing.py` 里有回归测试锁住这一点。
 - **密钥**：`.env` 已在 `.gitignore` 中，不会被提交。
+
+## 启用 CI
+
+CI 配置在 `.github/ci.yml.disabled`，暂时没放在 `.github/workflows/` 下——
+推送时的 OAuth token 缺少 `workflow` scope，GitHub 会拒绝任何创建/修改
+`.github/workflows/` 下文件的推送。
+
+补上 scope 后启用：
+
+```bash
+gh auth refresh -h github.com -s workflow   # 需完成浏览器授权
+mkdir -p .github/workflows
+git mv .github/ci.yml.disabled .github/workflows/ci.yml
+git commit -am "enable CI" && git push
+```
+
+这套 CI 除了跑单元测试和构建镜像，还有一道检查专门卡"RAG 静默降级"：
+容器起来后断言日志里出现 `RAG 生效`，否则构建失败。
