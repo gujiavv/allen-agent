@@ -88,3 +88,21 @@ def fake_retrieval(monkeypatch):
         monkeypatch.setattr(rag_store, "search", lambda store, q, k=4: hits)
 
     return _set
+
+
+@pytest.fixture
+def mock_llm_stream(monkeypatch):
+    """替换流式调用，产出固定的思考 + 正文增量。"""
+
+    def _set(thinking="想一想。", content="这是回答。"):
+        def _stream(messages, temperature=0.7):
+            _stream.called_with = {"messages": messages, "temperature": temperature}
+            for ch in thinking:
+                yield "thinking", ch
+            for ch in content:
+                yield "content", ch
+
+        monkeypatch.setattr(llm, "chat_stream", _stream)
+        return _stream
+
+    return _set

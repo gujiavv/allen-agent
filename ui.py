@@ -11,7 +11,9 @@
 `uvicorn --port 8123` 却没设 PORT），自调用会静默打到 8000 上**别的**服务，
 甚至把用户提问发给毫不相干的第三方。ASGITransport 从根上消除了这个风险。
 """
+import json
 import os
+import time
 
 # 必须在 import gradio 之前设置：Gradio 默认会在导入时向 api.gradio.app
 # 上报遥测并检查版本，服务端不需要这种外连，CI 里也会拖慢并污染日志。
@@ -22,6 +24,7 @@ import httpx  # noqa: E402
 
 # ASGITransport 不做 DNS 解析，host 只是个占位符
 CHAT_URL = "http://asgi.internal/chat"
+STREAM_URL = "http://asgi.internal/chat/stream"
 
 _client: httpx.AsyncClient | None = None
 
@@ -38,34 +41,83 @@ EXAMPLES = [
 ]
 
 
-async def _respond(message: str, history) -> str:
+async def _respond(message: str, history):
+    """异步生成器：每收到一点增量就 yield 一次，Gradio 会实时刷新。
+
+    产出的是 gr.ChatMessage 列表——思考过程带 metadata，Gradio 会把它渲染成
+    可折叠的面板，默认收起，点开才看得到，不至于把正式回答挤下去。
+    """
     if not message or not message.strip():
-        return "请输入问题。"
+        yield "请输入问题。"
+        return
+
+    thinking, content, sources, mode = "", "", [], "llm"
+    started = time.monotonic()
+
+    def _render():
+        blocks = []
+        if thinking:
+            done = bool(content)
+            blocks.append(
+                gr.ChatMessage(
+                    role="assistant",
+                    content=thinking,
+                    metadata={
+                        "title": "💭 思考完成" if done else "💭 正在思考…",
+                        "status": "done" if done else "pending",
+                        "duration": round(time.monotonic() - started, 1),
+                    },
+                )
+            )
+        if content:
+            blocks.append(gr.ChatMessage(role="assistant", content=content + _footer()))
+        return blocks
+
+    def _footer() -> str:
+        if mode == "rag" and sources:
+            lines = ["", "", "---", "📚 **依据以下 Ballet 官方文档回答：**"]
+            for src in sources:
+                title, url, score = src.get("title", ""), src.get("url", ""), src.get("score", 0)
+                lines.append(
+                    f"- [{title}]({url}) · 相关度 {score}" if url
+                    else f"- {title} · 相关度 {score}"
+                )
+            return "\n".join(lines)
+        return "\n\n---\n🤖 *知识库中没有相关文档，以上由大模型自身知识作答。*"
 
     try:
-        response = await _client.post(CHAT_URL, json={"message": message})
-        response.raise_for_status()
-        data = response.json()
+        async with _client.stream("POST", STREAM_URL, json={"message": message}) as response:
+            response.raise_for_status()
+            async for line in response.aiter_lines():
+                if not line.startswith("data: "):
+                    continue
+                event = json.loads(line[6:])
+                kind, value = event["type"], event["value"]
+
+                if kind == "mode":
+                    mode = value
+                elif kind == "sources":
+                    sources = value
+                elif kind == "thinking":
+                    thinking += value
+                    yield _render()
+                elif kind == "content":
+                    content += value
+                    yield _render()
+                elif kind == "error":
+                    yield f"⚠️ 出错了：{value}"
+                    return
+                elif kind == "done":
+                    break
     except Exception as e:
-        return f"⚠️ 请求失败：{e}"
+        yield f"⚠️ 请求失败：{e}"
+        return
 
-    reply = data.get("reply", "")
-    sources = data.get("sources", [])
-
-    if data.get("mode") == "rag" and sources:
-        lines = ["", "", "---", "📚 **依据以下 Ballet 官方文档回答：**"]
-        for s in sources:
-            title, url, score = s.get("title", ""), s.get("url", ""), s.get("score", 0)
-            # 少数文章原文里没有链接，此时只显示标题，不渲染成坏链接
-            lines.append(
-                f"- [{title}]({url}) · 相关度 {score}" if url
-                else f"- {title} · 相关度 {score}"
-            )
-        reply += "\n".join(lines)
+    # 收尾：思考面板置为完成态，正文补上引用
+    if not content and not thinking:
+        yield "（模型没有返回内容）"
     else:
-        reply += "\n\n---\n🤖 *知识库中没有相关文档，以上由大模型自身知识作答。*"
-
-    return reply
+        yield _render()
 
 
 def build_demo() -> gr.Blocks:

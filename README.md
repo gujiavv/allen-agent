@@ -151,6 +151,22 @@ GRADIO_ANALYTICS_ENABLED=False
   页面看着正常但 RAG 全部失效。`tests/test_routing.py` 里有回归测试锁住这一点。
 - **密钥**：`.env` 已在 `.gitignore` 中，不会被提交。
 
+## 流式输出与思考过程
+
+页面上的回答是逐字流出来的，模型的推理过程收在一个默认折叠的 **💭 思考** 面板里，
+点开可以看到完整推理，面板上标着耗时。
+
+- **接口**：`POST /chat/stream`，SSE。事件类型依次为
+  `mode` → `sources` → `thinking`(多条) → `content`(多条) → `done`。
+  引用在正文之前就推送，所以页面能先显示"找到了哪几篇文档"再开始出字。
+- **`/chat` 保持非流式**，响应契约一字未变。流式单开一个端点而不是给 `/chat` 加
+  `stream` 参数——同一个端点返回两种形态会让契约变含混，外部调用方也会被波及。
+- **不需要 `enable_thinking` 参数**。qwen3.7-plus 默认就在 `reasoning_content` 里
+  返回推理过程。`reasoning_content` 不是 OpenAI 官方字段，代码里用 `getattr` 取。
+- **推理语言跟着系统提示词走**：走 RAG 时系统提示词是中文，推理也是中文；
+  纯大模型路径没有系统提示词，推理可能是英文。这是模型行为，提示词左右不了。
+- 响应头带了 `X-Accel-Buffering: no`，防止反向代理把流式攒成一坨再发。
+
 ## 启用 CI
 
 CI 配置在 `.github/ci.yml.disabled`，暂时没放在 `.github/workflows/` 下——

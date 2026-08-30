@@ -109,3 +109,43 @@ def answer(message: str) -> tuple[str, str, list[dict]]:
         temperature=0.3,  # 有资料时要贴着资料答，别发挥
     )
     return reply, "rag", _to_sources(relevant)
+
+
+def answer_stream(message: str):
+    """流式版本，逐个产出事件元组：
+
+        ("sources", [...])   检索完成，先把命中的文档推给前端
+        ("mode", "rag"/"llm") 走了哪条路
+        ("thinking", str)    模型推理过程的增量
+        ("content", str)     正式回答的增量
+
+    路由判定逻辑与 answer() 完全一致，只是把结果改成边生成边吐。
+    """
+    store = _get_store()
+    hits = None
+
+    if store is not None:
+        try:
+            hits = rag_store.search(store, message, k=config.RAG_TOP_K)
+        except Exception:
+            logger.exception("检索失败，降级为纯大模型回答")
+            hits = None
+
+    use_rag = bool(hits) and hits[0][1] >= config.RAG_SCORE_THRESHOLD
+
+    if use_rag:
+        relevant = [h for h in hits if h[1] >= config.RAG_SCORE_THRESHOLD]
+        yield "mode", "rag"
+        yield "sources", _to_sources(relevant)
+        messages = [
+            {"role": "system", "content": SYSTEM_RAG.format(context=_format_context(relevant))},
+            {"role": "user", "content": message},
+        ]
+        temperature = 0.3
+    else:
+        yield "mode", "llm"
+        yield "sources", []
+        messages = [{"role": "user", "content": message}]
+        temperature = 0.7
+
+    yield from llm.chat_stream(messages, temperature=temperature)

@@ -1,9 +1,11 @@
 # app.py
 """FastAPI 装配层：定义路由、挂载 Gradio 前端。业务逻辑都在 rag/ 和 llm.py 里。"""
+import json
 import logging
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
 import config
@@ -50,6 +52,40 @@ async def chat(request: ChatRequest):
         return ChatResponse(reply=reply, mode=mode, sources=sources)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/chat/stream")
+async def chat_stream(request: ChatRequest):
+    """/chat 的流式版本，用 SSE 逐段推送。
+
+    单独开一个端点而不是给 /chat 加 stream 参数：/chat 的响应契约已经被测试和
+    外部调用方锁住了，同一个端点返回两种形态会让契约变得含混。
+
+    每行形如 `data: {"type": ..., "value": ...}`，type 取值：
+    mode / sources / thinking / content / error / done
+    """
+
+    def _sse(event_type: str, value) -> str:
+        return "data: " + json.dumps(
+            {"type": event_type, "value": value}, ensure_ascii=False
+        ) + "\n\n"
+
+    def _generate():
+        try:
+            for event_type, value in pipeline.answer_stream(request.message):
+                yield _sse(event_type, value)
+        except Exception as e:
+            logger.exception("流式回答失败")
+            yield _sse("error", str(e))
+        finally:
+            yield _sse("done", None)
+
+    return StreamingResponse(
+        _generate(),
+        media_type="text/event-stream",
+        # 关掉 Nginx 一类反向代理的缓冲，否则流式会被攒成一坨再发出来
+        headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+    )
 
 
 @app.get("/health")
