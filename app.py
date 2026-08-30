@@ -75,6 +75,15 @@ from ui import mount_ui  # noqa: E402
 
 mount_ui(app)
 
-# 启动命令（本地测试用）：
-# uvicorn app:app --host 0.0.0.0 --port 8000
-# 页面地址：http://127.0.0.1:8000/ui
+if __name__ == "__main__":
+    # 支持直接 `python app.py` 启动。注意必须用项目 venv 里的解释器：
+    #     .venv/bin/python app.py
+    # 系统 Python 没装 gradio / langchain，会报 ModuleNotFoundError。
+    #
+    # 端口在这里就地读取，不放进 config.py：Gradio 页面改用 ASGITransport 之后
+    # 全项目只有这一处需要知道端口，放进配置模块反而会让人以为别处也依赖它。
+    import os
+
+    import uvicorn
+
+    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("PORT", "8000")))
