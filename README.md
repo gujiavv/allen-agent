@@ -167,6 +167,36 @@ GRADIO_ANALYTICS_ENABLED=False
   纯大模型路径没有系统提示词，推理可能是英文。这是模型行为，提示词左右不了。
 - 响应头带了 `X-Accel-Buffering: no`，防止反向代理把流式攒成一坨再发。
 
+## 关于 vector_store 老是"被修改"
+
+本地跑一次服务或测试之后，`git status` 会显示这两个文件被改动：
+
+```
+ M vector_store/<uuid>/data_level0.bin
+ M vector_store/chroma.sqlite3
+```
+
+**这是正常的，索引内容并没有变。** Chroma 打开数据库时会改写内部簿记
+（SQLite 的页头、HNSW 的运行时状态），哪怕只是只读查询也会。已验证过两个版本的
+块数都是 315、文件大小一字节不差。
+
+直接丢弃即可：
+
+```bash
+git checkout -- vector_store/
+```
+
+**只有 `all-articles.md` 变了才需要重建索引并提交：**
+
+```bash
+.venv/bin/python ingest.py
+.venv/bin/python calibrate.py    # 语料变了，阈值要重新标定
+git add vector_store/ && git commit -m "rebuild vector index"
+```
+
+注意重建后一定要重跑 `calibrate.py`：阈值 0.45 是针对当前这批文档实测出来的，
+换了语料就不一定还能把域内/域外问题分开。
+
 ## 启用 CI
 
 CI 配置在 `.github/ci.yml.disabled`，暂时没放在 `.github/workflows/` 下——
