@@ -197,6 +197,52 @@ git add vector_store/ && git commit -m "rebuild vector index"
 注意重建后一定要重跑 `calibrate.py`：阈值 0.45 是针对当前这批文档实测出来的，
 换了语料就不一定还能把域内/域外问题分开。
 
+## 怎么确认 Railway 部署的是最新代码
+
+`/health` 会自报版本，不用去翻部署面板：
+
+```bash
+curl -s https://<你的域名>/health
+```
+
+```json
+{
+  "status": "ok",
+  "version": "2.1",
+  "commit": "17a76ed",     ← 跟 git rev-parse --short HEAD 对比
+  "branch": "main",
+  "rag_enabled": true,     ← false 说明索引没进镜像，RAG 是死的
+  "chunks": 315
+}
+```
+
+对照本地：`git rev-parse --short HEAD`。两者一致就说明线上是最新代码。
+
+### commit 显示 unknown 怎么办
+
+说明 Railway 没有注入 `RAILWAY_GIT_COMMIT_SHA`，**该服务不是从 GitHub 仓库构建的**
+——多半是当初用 `railway up` 从本地上传创建的。这种服务和 GitHub 没有任何关联，
+`git push` 再多次也不会触发部署。
+
+去 Railway：**Settings → Source → Connect Repo**，接上 `gujiavv/allen-agent` 的
+`main` 分支。接上之后每次 push 才会自动构建。
+
+### commit 是旧的怎么办
+
+自动部署没触发或构建失败了。依次检查：
+
+1. **Settings → Source** 里的分支是不是 `main`
+2. 同一页的 **Auto Deploy** 有没有被关掉
+3. **Deployments** 页面看最近一次构建是成功还是失败；失败就看 Build Logs
+
+手动补救：Deployments 页面右上角 **Deploy / Redeploy**，会拉当前分支最新提交重建。
+
+### 部署成功但 rag_enabled 是 false
+
+索引没进镜像。确认 `vector_store/` 确实在仓库里（`git ls-files vector_store/ | head`），
+并且没被写进 `.dockerignore`。这是本项目最容易翻车的地方：索引缺失时服务照常启动、
+`/health` 照常返回 ok，只有 RAG 是死的。
+
 ## 启用 CI
 
 CI 配置在 `.github/ci.yml.disabled`，暂时没放在 `.github/workflows/` 下——

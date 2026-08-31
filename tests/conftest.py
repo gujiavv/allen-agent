@@ -66,7 +66,15 @@ def fake_retrieval(monkeypatch):
     """
 
     def _set(*scored, raises: bool = False):
-        monkeypatch.setattr(pipeline, "_store", object())  # 非 None 即可
+        # 假 store 需要带 _collection.count()，/health 会统计块数
+        class _FakeCollection:
+            def count(self):
+                return len(scored)
+
+        class _FakeStore:
+            _collection = _FakeCollection()
+
+        monkeypatch.setattr(pipeline, "_store", _FakeStore())
         monkeypatch.setattr(pipeline, "_loaded", True)
 
         if raises:

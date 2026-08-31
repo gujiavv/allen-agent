@@ -33,6 +33,34 @@ RAG_TOP_K = int(os.getenv("RAG_TOP_K", "4"))
 # 该默认值由 calibrate.py 用域内/域外两组问题实测标定，勿凭感觉改。
 RAG_SCORE_THRESHOLD = float(os.getenv("RAG_SCORE_THRESHOLD", "0.45"))
 
+# ---- 部署版本标识 ----
+# Railway 会给「连接了 GitHub 仓库」的服务自动注入这些变量。
+# 如果线上 /health 里 commit 显示 unknown，说明该服务不是从 GitHub 构建的
+# （例如当初用 railway up 从本地上传），那么再怎么 git push 都不会触发部署。
+APP_VERSION = "2.1"
+COMMIT = os.getenv("RAILWAY_GIT_COMMIT_SHA", "")[:7]
+BRANCH = os.getenv("RAILWAY_GIT_BRANCH", "")
+
+
+def _local_commit() -> str:
+    """本地开发时没有 Railway 变量，直接读 .git 拿当前提交。
+
+    容器里没有 .git（已在 .dockerignore 中排除），所以这段只在本地生效。
+    """
+    try:
+        head = (BASE_DIR / ".git" / "HEAD").read_text().strip()
+        if head.startswith("ref: "):
+            ref = (BASE_DIR / ".git" / head[5:]).read_text().strip()
+            return ref[:7]
+        return head[:7]
+    except Exception:
+        return ""
+
+
+if not COMMIT:
+    COMMIT = _local_commit() or "unknown"
+
+
 if not API_KEY:
     raise ValueError(
         "缺少 DASHSCOPE_API_KEY。本地开发请在项目根目录 .env 中配置；"

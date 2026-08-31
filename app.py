@@ -23,7 +23,7 @@ async def lifespan(app: FastAPI):
     yield
 
 
-app = FastAPI(title="我的Agent服务", version="2.0", lifespan=lifespan)
+app = FastAPI(title="我的Agent服务", version=config.APP_VERSION, lifespan=lifespan)
 
 
 class ChatRequest(BaseModel):
@@ -90,8 +90,31 @@ async def chat_stream(request: ChatRequest):
 
 @app.get("/health")
 async def health():
-    """健康检查接口，用于部署后验证服务是否正常"""
-    return {"status": "ok"}
+    """健康检查，同时自报版本与 RAG 状态。
+
+    加上 commit 是为了能一眼确认线上跑的到底是哪次提交，不用去翻部署面板。
+    加上 rag_enabled 是因为索引没进镜像时服务照样能起、health 照样返回 ok，
+    RAG 却是死的——这个字段让那种静默降级藏不住。
+    """
+    # 健康检查绝不能崩：Railway 靠它判断服务是否存活，这里抛异常会让整个部署
+    # 被标记为失败。统计块数用到了 Chroma 的私有属性，所以整段包在 try 里。
+    rag_enabled, chunks = False, 0
+    try:
+        store = pipeline.get_store()
+        if store is not None:
+            rag_enabled = True
+            chunks = store._collection.count()
+    except Exception:
+        logger.exception("统计向量库状态失败，不影响健康检查结果")
+
+    return {
+        "status": "ok",
+        "version": config.APP_VERSION,
+        "commit": config.COMMIT,
+        "branch": config.BRANCH or None,
+        "rag_enabled": rag_enabled,
+        "chunks": chunks,
+    }
 
 
 @app.get("/myapp")

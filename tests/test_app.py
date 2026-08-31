@@ -4,7 +4,23 @@
 def test_health(client):
     r = client.get("/health")
     assert r.status_code == 200
-    assert r.json() == {"status": "ok"}
+    body = r.json()
+    assert body["status"] == "ok"
+    assert body["version"]
+    assert body["commit"]        # 有 Railway 变量用它，否则读本地 .git
+
+
+def test_health_报告rag状态(client, fake_retrieval, mock_llm):
+    """/health 要能反映向量库到底加载没加载。
+
+    索引没进镜像时服务照样能起、health 照样 ok，RAG 却是死的。
+    这个字段就是用来戳穿那种静默降级的。
+    """
+    # client 夹具默认没有向量库
+    assert client.get("/health").json()["rag_enabled"] is False
+
+    fake_retrieval((0.9, "文章"))
+    assert client.get("/health").json()["rag_enabled"] is True
 
 
 def test_myapp(client):
@@ -52,3 +68,20 @@ def test_ui_is_mounted(client):
     """Gradio 页面挂在 /ui（Gradio 会把 /ui 重定向到 /ui/）。"""
     r = client.get("/ui", follow_redirects=True)
     assert r.status_code == 200
+
+
+def test_health_即使统计失败也不崩(client, monkeypatch):
+    """Railway 靠 /health 判断存活，它抛异常会让整个部署被判失败。"""
+    from rag import pipeline
+
+    class _Broken:
+        @property
+        def _collection(self):
+            raise RuntimeError("Chroma 内部结构变了")
+
+    monkeypatch.setattr(pipeline, "_store", _Broken())
+    monkeypatch.setattr(pipeline, "_loaded", True)
+
+    r = client.get("/health")
+    assert r.status_code == 200
+    assert r.json()["status"] == "ok"

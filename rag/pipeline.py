@@ -52,6 +52,11 @@ def _get_store():
     return _store
 
 
+def get_store():
+    """供 /health 查询向量库状态。"""
+    return _get_store()
+
+
 def _format_context(hits) -> str:
     blocks = []
     for i, (doc, score) in enumerate(hits, 1):
