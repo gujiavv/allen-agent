@@ -1,0 +1,6 @@
+# 仅用于本地评测实验，【不要】装进部署镜像。
+# torch + sentence-transformers 会让镜像从 940MB 涨到 3GB 以上，
+# 而 rerank 只在离线对比实验里用，线上并不需要。
+-r requirements.txt
+rank_bm25
+sentence-transformers

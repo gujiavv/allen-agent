@@ -1,0 +1,2830 @@
+[
+  {
+    "question": "用那个app能不能重新设个密码啊？",
+    "expected_title": "Can I use the mobile app to set a new passphrase?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900006439403-Can-I-use-the-mobile-app-to-set-a-new-passphrase",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "这密码是出厂的时候就定好的吗？后面改不了？",
+    "expected_title": "Can I use the mobile app to set a new passphrase?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900006439403-Can-I-use-the-mobile-app-to-set-a-new-passphrase",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "刚拿到卡，第一步要干啥？需要下什么软件？",
+    "expected_title": "What’s the first thing I should do when I get a new Ballet Cold Storage?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900006435983-What-s-the-first-thing-I-should-do-when-I-get-a-new-Ballet-Cold-Storage",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "卡上面那个二维码是干嘛用的？扫完会怎么样？",
+    "expected_title": "What’s the first thing I should do when I get a new Ballet Cold Storage?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900006435983-What-s-the-first-thing-I-should-do-when-I-get-a-new-Ballet-Cold-Storage",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我在亚马逊上看到好多店铺在卖Ballet，怎么知道哪些是官方授权的？",
+    "expected_title": "Is my Ballet product genuine?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/39172800302489-Is-my-Ballet-product-genuine",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我收到的卡颜色跟网上图片看着不太一样，是不是买到假货了？",
+    "expected_title": "Is my Ballet product genuine?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/39172800302489-Is-my-Ballet-product-genuine",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我之前买的那个里面带币的卡还能用吗？里面的币会不会受影响？",
+    "expected_title": "Discontinuation of Loaded Bitcoin Products",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/43814779789593-Discontinuation-of-Loaded-Bitcoin-Products",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "那我买个空卡回来，自己往里充币可以吗？",
+    "expected_title": "Discontinuation of Loaded Bitcoin Products",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/43814779789593-Discontinuation-of-Loaded-Bitcoin-Products",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "这冷钱包最多能存多少个币啊？有上限没？",
+    "expected_title": "Are there any limits or restrictions by using Ballet Cold Storage? What’s the maximum amount of crypto I can load on it?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/12751062475929-Are-there-any-limits-or-restrictions-by-using-Ballet-Cold-Storage-What-s-the-maximum-amount-of-crypto-I-can-load-on-it",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我用这个钱包给别人转币，金额有上限吗？随便转给谁都可以吧？",
+    "expected_title": "Are there any limits or restrictions by using Ballet Cold Storage? What’s the maximum amount of crypto I can load on it?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/12751062475929-Are-there-any-limits-or-restrictions-by-using-Ballet-Cold-Storage-What-s-the-maximum-amount-of-crypto-I-can-load-on-it",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "你们有没有客服电话啊？遇到问题想直接打电话咨询",
+    "expected_title": "Does Ballet provide phone service?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/57976451674649-Does-Ballet-provide-phone-service",
+    "category": "Account, Support, and Security",
+    "in_domain": true
+  },
+  {
+    "question": "刚才有人给我打电话说是你们官方的，让我核对下钱包信息，这是真的还是骗子啊？",
+    "expected_title": "Does Ballet provide phone service?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/57976451674649-Does-Ballet-provide-phone-service",
+    "category": "Account, Support, and Security",
+    "in_domain": true
+  },
+  {
+    "question": "有人在 Telegram 上自称是官方客服，还让我把卡片背面拍给他看，这能信吗？",
+    "expected_title": "How can I confirm whether a Ballet website, email address, or support contact is official?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/58964849947801-How-can-I-confirm-whether-a-Ballet-website-email-address-or-support-contact-is-official",
+    "category": "Account, Support, and Security",
+    "in_domain": true
+  },
+  {
+    "question": "我刚买完卡，收到邮件说必须交一笔钱才能帮我激活，这是官方的要求还是骗子啊？",
+    "expected_title": "How can I confirm whether a Ballet website, email address, or support contact is official?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/58964849947801-How-can-I-confirm-whether-a-Ballet-website-email-address-or-support-contact-is-official",
+    "category": "Account, Support, and Security",
+    "in_domain": true
+  },
+  {
+    "question": "我想存个以太坊上的币，但是自带的列表里没看到，怎么把它加到我的卡里啊？",
+    "expected_title": "Crypto Assets Supported by Ballet",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/11576500617753-Crypto-Assets-Supported-by-Ballet",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "这冷钱包能存 NFT 吗？还有那个比特币铭文能不能放进去？",
+    "expected_title": "Crypto Assets Supported by Ballet",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/11576500617753-Crypto-Assets-Supported-by-Ballet",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "这个卡买回来里面有币吗？还是要自己另外弄？",
+    "expected_title": "Does Ballet Cold Storage come with preloaded cryptocurrencies?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/12751072936729-Does-Ballet-Cold-Storage-come-with-preloaded-cryptocurrencies",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我花的钱就只是买一张空卡？",
+    "expected_title": "Does Ballet Cold Storage come with preloaded cryptocurrencies?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/12751072936729-Does-Ballet-Cold-Storage-come-with-preloaded-cryptocurrencies",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我想定制带我们公司logo的卡，最少要订多少张啊？",
+    "expected_title": "How can I get wholesale pricing, reseller information, or custom co-branded Ballet products?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/59841397624473-How-can-I-get-wholesale-pricing-reseller-information-or-custom-co-branded-Ballet-products",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "想批量拿货或者做代理，该找谁联系？发邮件要写些啥？",
+    "expected_title": "How can I get wholesale pricing, reseller information, or custom co-branded Ballet products?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/59841397624473-How-can-I-get-wholesale-pricing-reseller-information-or-custom-co-branded-Ballet-products",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我换手机了，卡里的币会不会不见啊？",
+    "expected_title": "How do I add/switch my Ballet card to a new phone?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/57976453284377-How-do-I-add-switch-my-Ballet-card-to-a-new-phone",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "加到新手机上需要把那个银色贴纸刮掉吗？",
+    "expected_title": "How do I add/switch my Ballet card to a new phone?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/57976453284377-How-do-I-add-switch-my-Ballet-card-to-a-new-phone",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我买的BTC卡和ETH卡功能上有区别吗？它俩到底差在哪？",
+    "expected_title": "What are the differences between different REAL series Cold Storage Cards?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/12750735366041-What-are-the-differences-between-different-REAL-series-Cold-Storage-Cards",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "不锈钢版和镀金版差多少钱啊？",
+    "expected_title": "What are the differences between different REAL series Cold Storage Cards?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/12750735366041-What-are-the-differences-between-different-REAL-series-Cold-Storage-Cards",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "这卡是用什么材料做的？结实不结实？",
+    "expected_title": "What materials are Ballet Cold Storage cards made from?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900005501666-What-materials-are-Ballet-Cold-Storage-cards-made-from",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "这玩意儿能保存多久？放几十年会不会坏掉？",
+    "expected_title": "What materials are Ballet Cold Storage cards made from?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900005501666-What-materials-are-Ballet-Cold-Storage-cards-made-from",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "你们app上那个币价数据是哪来的啊？",
+    "expected_title": "What source does the Ballet Crypto app get cryptocurrency prices from?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900005501706-What-source-does-the-Ballet-Crypto-app-get-cryptocurrency-prices-from",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "app里看到的币价是实时的不？会不会有延迟？",
+    "expected_title": "What source does the Ballet Crypto app get cryptocurrency prices from?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900005501706-What-source-does-the-Ballet-Crypto-app-get-cryptocurrency-prices-from",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "刚拿到手，需要连电脑设置吗？还是拆开包装就能直接用？",
+    "expected_title": "Is the Ballet REAL Series really the world’s easiest cryptocurrency cold storage?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360062628833-Is-the-Ballet-REAL-Series-really-the-world-s-easiest-cryptocurrency-cold-storage",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "用这个需要注册账号或者记助记词吗？我最怕记那些长串密码了。",
+    "expected_title": "Is the Ballet REAL Series really the world’s easiest cryptocurrency cold storage?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360062628833-Is-the-Ballet-REAL-Series-really-the-world-s-easiest-cryptocurrency-cold-storage",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我手上那张样品卡能正常使用吗？放钱进去安不安全啊？",
+    "expected_title": "What’s the difference between standard Ballet Cold Storage cards and pre-production samples?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490374-What-s-the-difference-between-standard-Ballet-Cold-Storage-cards-and-pre-production-samples",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "标准卡和样品卡到底差在哪儿？是不是做工材料不一样？",
+    "expected_title": "What’s the difference between standard Ballet Cold Storage cards and pre-production samples?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490374-What-s-the-difference-between-standard-Ballet-Cold-Storage-cards-and-pre-production-samples",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "你们这卡定价是不是有点高啊？到底贵在哪里？",
+    "expected_title": "Are Ballet Cold Storage cards priced fairly relative to the true cost of production?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360062628953-Are-Ballet-Cold-Storage-cards-priced-fairly-relative-to-the-true-cost-of-production",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "跟市面上那些硬件钱包比，你们这个算便宜吗？",
+    "expected_title": "Are Ballet Cold Storage cards priced fairly relative to the true cost of production?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360062628953-Are-Ballet-Cold-Storage-cards-priced-fairly-relative-to-the-true-cost-of-production",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我在app里新开通的币种地址，是什么时候生成的？是我点激活的时候才弄出来的吗？",
+    "expected_title": "When I activate additional cryptocurrency accounts in the Ballet Crypto app, how are those addresses generated?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036958373-When-I-activate-additional-cryptocurrency-accounts-in-the-Ballet-Crypto-app-how-are-those-addresses-generated",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "你们数据库里存了我的地址，那私钥会不会也存在你们服务器上？还是说生成完就删了？",
+    "expected_title": "When I activate additional cryptocurrency accounts in the Ballet Crypto app, how are those addresses generated?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036958373-When-I-activate-additional-cryptocurrency-accounts-in-the-Ballet-Crypto-app-how-are-those-addresses-generated",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "你们文档里一会儿说地址一会儿说账户的，这俩是一个东西吗？搞得我有点晕",
+    "expected_title": "What’s the difference between a cryptocurrency address and a cryptocurrency account?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900006436283-What-s-the-difference-between-a-cryptocurrency-address-and-a-cryptocurrency-account",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "卡上那个防拆贴纸上的二维码和那一串字母数字，就是你们说的地址对吧？",
+    "expected_title": "What’s the difference between a cryptocurrency address and a cryptocurrency account?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900006436283-What-s-the-difference-between-a-cryptocurrency-address-and-a-cryptocurrency-account",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "这卡连电都没有，我的币到底存在哪了？",
+    "expected_title": "How is it possible to store cryptocurrency on a non-electronic device such as a Ballet Cold Storage?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4406932793881-How-is-it-possible-to-store-cryptocurrency-on-a-non-electronic-device-such-as-a-Ballet-Cold-Storage",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "私钥是印在贴纸上的还是刻在钢片上的？",
+    "expected_title": "How is it possible to store cryptocurrency on a non-electronic device such as a Ballet Cold Storage?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4406932793881-How-is-it-possible-to-store-cryptocurrency-on-a-non-electronic-device-such-as-a-Ballet-Cold-Storage",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "用这个冷钱包，激活或者存取币的时候要不要扣手续费啊？",
+    "expected_title": "Does Ballet charge any fees to activate, unlock, or access funds on a wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/56217920772761-Does-Ballet-charge-any-fees-to-activate-unlock-or-access-funds-on-a-wallet",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "卡刚拿到手，第一步怎么弄才能用？要下载什么APP吗？",
+    "expected_title": "Does Ballet charge any fees to activate, unlock, or access funds on a wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/56217920772761-Does-Ballet-charge-any-fees-to-activate-unlock-or-access-funds-on-a-wallet",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我卡上有三个序列号，怎么确认它们是对应的？",
+    "expected_title": "How are Ballet passphrase entropy and private key entropy are matched correctly during the manufacturing process?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037003733-How-are-Ballet-passphrase-entropy-and-private-key-entropy-are-matched-correctly-during-the-manufacturing-process",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "生产的时候怎么保证密码和私钥不会搞混？",
+    "expected_title": "How are Ballet passphrase entropy and private key entropy are matched correctly during the manufacturing process?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037003733-How-are-Ballet-passphrase-entropy-and-private-key-entropy-are-matched-correctly-during-the-manufacturing-process",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我想把里面的币转走，直接在手机软件上操作不行吗？非得拿着那张实体卡才能转账吗？",
+    "expected_title": "Why do I need the physical card to send crypto? Can't I just transfer from the app?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900006436343-Why-do-I-need-the-physical-card-to-send-crypto-Can-t-I-just-transfer-from-the-app",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我拿手机扫了卡上的码，软件里出现的那个虚拟卡，会不会把我的私钥存到手机里啊？",
+    "expected_title": "Why do I need the physical card to send crypto? Can't I just transfer from the app?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900006436343-Why-do-I-need-the-physical-card-to-send-crypto-Can-t-I-just-transfer-from-the-app",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "这卡能存哪些币？以太坊上的代币行不行？",
+    "expected_title": "What cryptocurrencies can I store on my Ballet Cold Storage?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036443614-What-cryptocurrencies-can-I-store-on-my-Ballet-Cold-Storage",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我想往里面充币，收款地址怎么弄出来？",
+    "expected_title": "What cryptocurrencies can I store on my Ballet Cold Storage?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036443614-What-cryptocurrencies-can-I-store-on-my-Ballet-Cold-Storage",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "密码和私钥都不在同一台电脑上，那地址是怎么算出来的？",
+    "expected_title": "How is it possible to generate a cryptocurrency address from a passphrase entropy and private key entropy without combining them on the same computer?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490414-How-is-it-possible-to-generate-a-cryptocurrency-address-from-a-passphrase-entropy-and-private-key-entropy-without-combining-them-on-the-same-computer",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我怎么确认密码是对的，但又不会真的去解密私钥？",
+    "expected_title": "How is it possible to generate a cryptocurrency address from a passphrase entropy and private key entropy without combining them on the same computer?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490414-How-is-it-possible-to-generate-a-cryptocurrency-address-from-a-passphrase-entropy-and-private-key-entropy-without-combining-them-on-the-same-computer",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "你们造私钥的人都不知道我的密码，那他们是怎么把私钥搞出来的？",
+    "expected_title": "How is it possible to generate a private key entropy without knowing the passphrase entropy needed to decrypt it?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002343802-How-is-it-possible-to-generate-a-private-key-entropy-without-knowing-the-passphrase-entropy-needed-to-decrypt-it",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "那个中间码和私钥分别是在不同地方做的，具体是怎么个流程？",
+    "expected_title": "How is it possible to generate a private key entropy without knowing the passphrase entropy needed to decrypt it?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002343802-How-is-it-possible-to-generate-a-private-key-entropy-without-knowing-the-passphrase-entropy-needed-to-decrypt-it",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "不插线不连蓝牙的，那我怎么往里面存币或者把币转走啊？",
+    "expected_title": "No Electronic Components",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/14003771933209-No-Electronic-Components",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "你们这钱包连电都不通，里面没芯片啥的，不会比那种插USB的不安全吧？",
+    "expected_title": "No Electronic Components",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/14003771933209-No-Electronic-Components",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我卡上那个序列号是干嘛用的？",
+    "expected_title": "Why do Ballet Cold Storage cards have serial numbers?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037511934-Why-do-Ballet-Cold-Storage-cards-have-serial-numbers",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "你们会不会通过序列号查到我的卡是哪张？",
+    "expected_title": "Why do Ballet Cold Storage cards have serial numbers?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037511934-Why-do-Ballet-Cold-Storage-cards-have-serial-numbers",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "你们怎么检查卡片有没有做坏的？是每张都查还是抽查？",
+    "expected_title": "How does Ballet ensure that there are no defects in the manufacturing process?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002343922-How-does-Ballet-ensure-that-there-are-no-defects-in-the-manufacturing-process",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "检查完的卡为啥要销毁掉？不卖了吗？",
+    "expected_title": "How does Ballet ensure that there are no defects in the manufacturing process?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002343922-How-does-Ballet-ensure-that-there-are-no-defects-in-the-manufacturing-process",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我想往卡里转主币，是不是非得下你们那个官方APP啊？直接拿我平时的钱包扫卡上的二维码转过去行不行？",
+    "expected_title": "Do I need to use the Ballet Crypto mobile app to deposit cryptocurrency to my Ballet Cold Storage card??",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037511874-Do-I-need-to-use-the-Ballet-Crypto-mobile-app-to-deposit-cryptocurrency-to-my-Ballet-Cold-Storage-card",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "除了主币，要是我还想往卡里存点别的币，是不是就必须得用你们的官方APP来弄了？",
+    "expected_title": "Do I need to use the Ballet Crypto mobile app to deposit cryptocurrency to my Ballet Cold Storage card??",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037511874-Do-I-need-to-use-the-Ballet-Crypto-mobile-app-to-deposit-cryptocurrency-to-my-Ballet-Cold-Storage-card",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "你们这钱包怎么连助记词都没有啊？别家都有，你们这个靠什么保证安全？",
+    "expected_title": "No Seed Phrases",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/14003704148377-No-Seed-Phrases",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "说是从两个不同地方取随机数来生成密钥，这具体是怎么弄的？",
+    "expected_title": "No Seed Phrases",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/14003704148377-No-Seed-Phrases",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "这个卡不用充电吧？会不会用着用着就坏了？",
+    "expected_title": "What’s the difference between Ballet Cold Storage cards (non-electronic bearer assets) and wallets like OpenDime and Tangem (electronic bearer assets)?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490274-What-s-the-difference-between-Ballet-Cold-Storage-cards-non-electronic-bearer-assets-and-wallets-like-OpenDime-and-Tangem-electronic-bearer-assets",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "别人说这种卡的私钥是厂家生成的，不像Tangem那样自己生成，是不是不太安全啊？",
+    "expected_title": "What’s the difference between Ballet Cold Storage cards (non-electronic bearer assets) and wallets like OpenDime and Tangem (electronic bearer assets)?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490274-What-s-the-difference-between-Ballet-Cold-Storage-cards-non-electronic-bearer-assets-and-wallets-like-OpenDime-and-Tangem-electronic-bearer-assets",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "这个卡防水吗？之前纸钱包不小心沾水字迹都糊了",
+    "expected_title": "What's the difference between Ballet Cold Storage and traditional paper wallets like bitaddress.org?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037003573-What-s-the-difference-between-Ballet-Cold-Storage-and-traditional-paper-wallets-like-bitaddress-org",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "私钥藏在哪儿啊？怎么保证没被人偷看过？",
+    "expected_title": "What's the difference between Ballet Cold Storage and traditional paper wallets like bitaddress.org?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037003573-What-s-the-difference-between-Ballet-Cold-Storage-and-traditional-paper-wallets-like-bitaddress-org",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我在App里多开通几个币的账户，它会现场给我生成新的收款地址吗？",
+    "expected_title": "Does the Ballet Crypto app generate new cryptocurrency addresses when I activate additional cryptocurrency accounts on my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002343982-Does-the-Ballet-Crypto-app-generate-new-cryptocurrency-addresses-when-I-activate-additional-cryptocurrency-accounts-on-my-Ballet-Cold-Storage-card",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "你们造钱包时用来生成地址的那个私钥，出厂后是不是就彻底删干净了？你们后台还能看到不？",
+    "expected_title": "Does the Ballet Crypto app generate new cryptocurrency addresses when I activate additional cryptocurrency accounts on my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002343982-Does-the-Ballet-Crypto-app-generate-new-cryptocurrency-addresses-when-I-activate-additional-cryptocurrency-accounts-on-my-Ballet-Cold-Storage-card",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "你们出厂前拆开防伪贴检查的那些卡，会不会又偷偷混在里面卖给我了？",
+    "expected_title": "How do you verify that each Ballet Cold Storage's private key entropy can be decrypted by the passphrase entropy before selling cold storage cards to the public?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490474-How-do-you-verify-that-each-Ballet-Cold-Storage-s-private-key-entropy-can-be-decrypted-by-the-passphrase-entropy-before-selling-cold-storage-cards-to-the-public",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "你们这个私钥是用什么技术生成的呀？币圈里大家都用这个吗？",
+    "expected_title": "How do you verify that each Ballet Cold Storage's private key entropy can be decrypted by the passphrase entropy before selling cold storage cards to the public?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490474-How-do-you-verify-that-each-Ballet-Cold-Storage-s-private-key-entropy-can-be-decrypted-by-the-passphrase-entropy-before-selling-cold-storage-cards-to-the-public",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我想直接把这冷钱包当礼物送人，如果不拆外面的纸盒，能先往里面打币吗？",
+    "expected_title": "Can I deposit cryptocurrency to a Ballet Cold Storage card before taking it out of the cardboard package?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900006439343-Can-I-deposit-cryptocurrency-to-a-Ballet-Cold-Storage-card-before-taking-it-out-of-the-cardboard-package",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "不拆外包装的话，我怎么弄出那个收款的二维码啊？",
+    "expected_title": "Can I deposit cryptocurrency to a Ballet Cold Storage card before taking it out of the cardboard package?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900006439343-Can-I-deposit-cryptocurrency-to-a-Ballet-Cold-Storage-card-before-taking-it-out-of-the-cardboard-package",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "你们这冷钱包怎么连个屏幕都不带啊？带个屏幕不是挺方便的吗，为啥要去掉？",
+    "expected_title": "No Screens",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/14003853728153-No-Screens",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我看你们说能存几十年，那要是带个屏幕的话，屏幕放几十年会不会老化坏掉？",
+    "expected_title": "No Screens",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/14003853728153-No-Screens",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "电脑上的那个app是不是要停掉了？停了之后我还能不能用？",
+    "expected_title": "Discontinuation of BalletCrypto Desktop App",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20417269499033-Discontinuation-of-BalletCrypto-Desktop-App",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "电脑端不能用了，我放在里面的币会不会有影响？钱还安全吗？",
+    "expected_title": "Discontinuation of BalletCrypto Desktop App",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20417269499033-Discontinuation-of-BalletCrypto-Desktop-App",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "Ballet那个app怎么下载啊？去哪下？",
+    "expected_title": "Download the Ballet Crypto app",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037737293-Download-the-Ballet-Crypto-app",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "那个实体卡要是弄丢了，里面的钱是不是就全没了？",
+    "expected_title": "Download the Ballet Crypto app",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037737293-Download-the-Ballet-Crypto-app",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我苹果手机上的芭蕾钱包以后是不是不能用了？要换什么新的app吗？",
+    "expected_title": "苹果商店中国区“芭蕾钱包” 手机应用停止更新 [2025.05.06]",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/45947791509273",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我用的是安卓手机，这个停更的事跟我没关系吧？",
+    "expected_title": "苹果商店中国区“芭蕾钱包” 手机应用停止更新 [2025.05.06]",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/45947791509273",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我想往Ballet钱包充币，能用Base或者Optimism链吗？",
+    "expected_title": "Does Ballet support deposits on the Base/Cronos/Optimism network?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/57976456851225-Does-Ballet-support-deposits-on-the-Base-Cronos-Optimism-network",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我不小心用Base链转了币到Ballet地址，现在app里没显示，这币还能找回来吗？",
+    "expected_title": "Does Ballet support deposits on the Base/Cronos/Optimism network?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/57976456851225-Does-Ballet-support-deposits-on-the-Base-Cronos-Optimism-network",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "币放交易所要是被黑客偷了或者平台倒闭了，我的钱还能找回来吗？有保险赔吗？",
+    "expected_title": "Why is it better to store cryptocurrency on a Ballet Cold Storage card rather than a custodial service such as an exchange or custodial wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037003633-Why-is-it-better-to-store-cryptocurrency-on-a-Ballet-Cold-Storage-card-rather-than-a-custodial-service-such-as-an-exchange-or-custodial-wallet",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "听说交易所动不动就冻结账号，用你们这个卡就不会有这种事了吧？里面的钱是不是只有我自己能说了算？",
+    "expected_title": "Why is it better to store cryptocurrency on a Ballet Cold Storage card rather than a custodial service such as an exchange or custodial wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037003633-Why-is-it-better-to-store-cryptocurrency-on-a-Ballet-Cold-Storage-card-rather-than-a-custodial-service-such-as-an-exchange-or-custodial-wallet",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "这个冷钱包能反复取钱吗，还是只能取一次就不能用了？",
+    "expected_title": "Can a Cold Storage Coin Be Used for Multiple Deposits and Withdrawals?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/57185909960601-Can-a-Cold-Storage-Coin-Be-Used-for-Multiple-Deposits-and-Withdrawals",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "背面的贴纸撕开之后，还能再往里面充币吗？",
+    "expected_title": "Can a Cold Storage Coin Be Used for Multiple Deposits and Withdrawals?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/57185909960601-Can-a-Cold-Storage-Coin-Be-Used-for-Multiple-Deposits-and-Withdrawals",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我的实体卡不小心弄丢了，但我有当时的购买订单，也有我的身份证，你们能帮我查一下把里面的币找回吗？",
+    "expected_title": "Can Ballet recover my wallet if I lost the physical wallet card, or the private key components: private key entropy, or passphrase entropy, are damaged or lost?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/58964850223513-Can-Ballet-recover-my-wallet-if-I-lost-the-physical-wallet-card-or-the-private-key-components-private-key-entropy-or-passphrase-entropy-are-damaged-or-lost",
+    "category": "Getting Started with Ballet Wallets",
+    "in_domain": true
+  },
+  {
+    "question": "我在你们那个手机 App 里是能看到这个钱包的，余额都在，还显示已验证，有这些截图也不能帮我把钱弄出来吗？",
+    "expected_title": "Can Ballet recover my wallet if I lost the physical wallet card, or the private key components: private key entropy, or passphrase entropy, are damaged or lost?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/58964850223513-Can-Ballet-recover-my-wallet-if-I-lost-the-physical-wallet-card-or-the-private-key-components-private-key-entropy-or-passphrase-entropy-are-damaged-or-lost",
+    "category": "Getting Started with Ballet Wallets",
+    "in_domain": true
+  },
+  {
+    "question": "买你们这个卡，还需要像以前那样抄那十几个英文单词吗？我记性不好怕弄丢。",
+    "expected_title": "What’s the difference between Ballet Cold Storage and non-custodial software wallets?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490334-What-s-the-difference-between-Ballet-Cold-Storage-and-non-custodial-software-wallets",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "我想送点币给完全不懂行的朋友，他不用下载啥软件也不用学，直接拿着这张卡就能收币放着对吧？",
+    "expected_title": "What’s the difference between Ballet Cold Storage and non-custodial software wallets?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490334-What-s-the-difference-between-Ballet-Cold-Storage-and-non-custodial-software-wallets",
+    "category": "Get Started - Ballet Cold Storage",
+    "in_domain": true
+  },
+  {
+    "question": "手续费想改一下但是调不了，在哪开那个什么专家模式啊？",
+    "expected_title": "How To Send Crypto Assets",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037738533-How-To-Send-Crypto-Assets",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "底下那个黄色的贴纸我扫完码了，能撕掉扔了吗？",
+    "expected_title": "How To Send Crypto Assets",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037738533-How-To-Send-Crypto-Assets",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "怎么把卡里的币转到别的钱包？在app里怎么操作",
+    "expected_title": "How to Transfer Crypto Assets from a Ballet Cold Storage Coin",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50812817982233-How-to-Transfer-Crypto-Assets-from-a-Ballet-Cold-Storage-Coin",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "卡上面那个贴纸要撕掉吗？密码在哪儿找",
+    "expected_title": "How to Transfer Crypto Assets from a Ballet Cold Storage Coin",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50812817982233-How-to-Transfer-Crypto-Assets-from-a-Ballet-Cold-Storage-Coin",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "币链上已经确认了，但App里怎么一直看不到？要检查哪些地方？",
+    "expected_title": "My transaction is confirmed but not showing in the Ballet app. What should I check?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/57976467375769-My-transaction-is-confirmed-but-not-showing-in-the-Ballet-app-What-should-I-check",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我不小心用错链转了币进去，这钱还能找回来吗？",
+    "expected_title": "My transaction is confirmed but not showing in the Ballet app. What should I check?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/57976467375769-My-transaction-is-confirmed-but-not-showing-in-the-Ballet-app-What-should-I-check",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "卡上贴的那个二维码只能收一种币吧？别的币怎么存进去？",
+    "expected_title": "How To Deposit Crypto Assets",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037219154-How-To-Deposit-Crypto-Assets",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "朋友要给我转币，我怎么在app里把收款地址弄出来发给他？",
+    "expected_title": "How To Deposit Crypto Assets",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037219154-How-To-Deposit-Crypto-Assets",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我往卡里打币的时候选错链了，现在App里看不到钱，你们客服能帮我手动把币弄出来或者撤回吗？",
+    "expected_title": "How can I export assets sent to a Ballet address on an unsupported network?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/58964845444633-How-can-I-export-assets-sent-to-a-Ballet-address-on-an-unsupported-network",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我看文档说要把选错链的币弄出来得断网解密，具体需要输入哪几个码啊？",
+    "expected_title": "How can I export assets sent to a Ballet address on an unsupported network?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/58964845444633-How-can-I-export-assets-sent-to-a-Ballet-address-on-an-unsupported-network",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "没装你们app的话，直接用手机相机扫卡上的码能往里面转币吗？",
+    "expected_title": "How to Deposit Crypto Assets into a Ballet Cold Storage Coin",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50812741685657-How-to-Deposit-Crypto-Assets-into-a-Ballet-Cold-Storage-Coin",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "用你们app扫完卡之后，点哪个按钮能看到收币地址啊？",
+    "expected_title": "How to Deposit Crypto Assets into a Ballet Cold Storage Coin",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50812741685657-How-to-Deposit-Crypto-Assets-into-a-Ballet-Cold-Storage-Coin",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我想从交易所提点 SOL 到你们的卡里，提现网络选 Solana 链可以吗？",
+    "expected_title": "Does Ballet support the Solana mainnet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/57976473165209-Does-Ballet-support-the-Solana-mainnet",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我不小心把 solana 链的币直接转到你们地址了，现在怎么弄能找回来？要给你们提供啥截图？",
+    "expected_title": "Does Ballet support the Solana mainnet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/57976473165209-Does-Ballet-support-the-Solana-mainnet",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我钱包里还有OMNI链的USDT，最晚什么时候得转走？",
+    "expected_title": "Important Notice: End of USDT-OMNI Support",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50101343610265-Important-Notice-End-of-USDT-OMNI-Support",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "要是过了9月1号还没转，里面的钱是不是就取不出来了？",
+    "expected_title": "Important Notice: End of USDT-OMNI Support",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50101343610265-Important-Notice-End-of-USDT-OMNI-Support",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我想往卡里充币，收款地址在哪儿弄？",
+    "expected_title": "Deposit Cryptocurrency (Crypto Gift Card)",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4415850683289-Deposit-Cryptocurrency-Crypto-Gift-Card",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "打开App之后点哪个按钮能开始充值？",
+    "expected_title": "Deposit Cryptocurrency (Crypto Gift Card)",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4415850683289-Deposit-Cryptocurrency-Crypto-Gift-Card",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "那个密码怎么弄出来啊？在哪看？",
+    "expected_title": "Send Cryptocurrency (Crypto Gift Card)",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4415953257753-Send-Cryptocurrency-Crypto-Gift-Card",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "二维码贴纸上面那层要撕掉是吧？扫的是底下那个黄色的码吗？",
+    "expected_title": "Send Cryptocurrency (Crypto Gift Card)",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4415953257753-Send-Cryptocurrency-Crypto-Gift-Card",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "往 Ballet 卡里转 XRP，那个目的标签（tag）还用填吗？",
+    "expected_title": "Ballet Does NOT Need XRP Tag",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/12750794733465-Ballet-Does-NOT-Need-XRP-Tag",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我用的交易所非要我填 XRP 的 tag 才能转账，但我这卡不需要啊，这咋办？",
+    "expected_title": "Ballet Does NOT Need XRP Tag",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/12750794733465-Ballet-Does-NOT-Need-XRP-Tag",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "转币的时候让我输入passphrase，这串密码到底在哪？卡上哪里能看到？",
+    "expected_title": "Send Cryptocurrency (PURE Bitcoin)",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4415991257881-Send-Cryptocurrency-PURE-Bitcoin",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "卡上那个黄色底的二维码是干嘛的？要撕掉上面的贴纸才能扫吗？",
+    "expected_title": "Send Cryptocurrency (PURE Bitcoin)",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4415991257881-Send-Cryptocurrency-PURE-Bitcoin",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我想往卡里转点USDT这种币，直接用别的钱包扫卡上的二维码行不行？是不是必须得用你们的app？",
+    "expected_title": "How do I deposit cryptocurrency to my Ballet Cold Storage?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036958233-How-do-I-deposit-cryptocurrency-to-my-Ballet-Cold-Storage",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我在app里激活了好几个币种，但是找不到它们各自的收款地址在哪，怎么操作才能看到？",
+    "expected_title": "How do I deposit cryptocurrency to my Ballet Cold Storage?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036958233-How-do-I-deposit-cryptocurrency-to-my-Ballet-Cold-Storage",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "转账的时候是不是得把卡刮坏啊？要刮哪些地方？",
+    "expected_title": "How do I send cryptocurrency from my Ballet Cold Storage?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036443234-How-do-I-send-cryptocurrency-from-my-Ballet-Cold-Storage",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "那个要刮开的涂层在卡的哪个位置啊？",
+    "expected_title": "How do I send cryptocurrency from my Ballet Cold Storage?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036443234-How-do-I-send-cryptocurrency-from-my-Ballet-Cold-Storage",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我想往这个卡里充币，具体怎么操作啊？",
+    "expected_title": "입금 방법암호화폐자산",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50342575508761",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "收款地址怎么弄出来？二维码还是复制地址都行吗？",
+    "expected_title": "입금 방법암호화폐자산",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50342575508761",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "卡上那个黄色的贴纸能不能撕掉啊？到底是撕哪个？",
+    "expected_title": "암호화폐 자산을 보내는 방법",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50343875406617",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "转账手续费怎么改？是不是得先开什么专家模式才行？",
+    "expected_title": "암호화폐 자산을 보내는 방법",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50343875406617",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "Coinbase里的币怎么转到我的Ballet冷钱包卡里？具体怎么弄",
+    "expected_title": "Import Crypto Assets from Coinbase",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/29463417759001-Import-Crypto-Assets-from-Coinbase",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "最后那个安全码是什么？要去哪里看？",
+    "expected_title": "Import Crypto Assets from Coinbase",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/29463417759001-Import-Crypto-Assets-from-Coinbase",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我想把Ledger里的币转到Ballet卡上，那个收款地址怎么复制出来啊？",
+    "expected_title": "Ledger에서 암호 자산 가져오기",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50277636566041",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "用助记词导入资产的话，文档说要开专家模式，这个在哪打开啊？",
+    "expected_title": "Ledger에서 암호 자산 가져오기",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50277636566041",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "在ballet app里怎么把收币地址复制出来啊？",
+    "expected_title": "Coinbase에서 암호화폐 자산 가져오기",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50277273271321",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "coinbase那边提币到最后，还要填手机或邮箱收到的验证码吗？",
+    "expected_title": "Coinbase에서 암호화폐 자산 가져오기",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50277273271321",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我想把BTCC币转到Ballet钱包里，上面那个防伪贴纸能直接撕吗？撕开后私钥是啥样的？",
+    "expected_title": "How to transfer the assets on your BTCC Mint coin to your Ballet wallet.",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/6508896555929-How-to-transfer-the-assets-on-your-BTCC-Mint-coin-to-your-Ballet-wallet",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我装了Ballet的App，怎么把实体卡绑到手机里啊？是不是得先开那个专家模式才能扫码？",
+    "expected_title": "How to transfer the assets on your BTCC Mint coin to your Ballet wallet.",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/6508896555929-How-to-transfer-the-assets-on-your-BTCC-Mint-coin-to-your-Ballet-wallet",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我想问下，比特币的铭文能直接存在这个卡里吗？还有Polygon链上的NFT行不行啊？",
+    "expected_title": "Ballet이 지원하는 암호화 자산",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50340791042713",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我在你们那个支持列表里没找到我想存的那个以太坊小代币，这怎么搞？能直接输合约地址手动加进去吗？",
+    "expected_title": "Ballet이 지원하는 암호화 자산",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50340791042713",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我电脑浏览器上装的 MetaMask 插件，怎么没法把 NFT 转到你们的卡里啊？",
+    "expected_title": "Receive & Send NFT on Ballet Cold Storage",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4408069633689-Receive-Send-NFT-on-Ballet-Cold-Storage",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "用 MetaMask 往冷钱包转 NFT 的时候，是不是还得额外备点 ETH 当手续费啊？",
+    "expected_title": "Receive & Send NFT on Ballet Cold Storage",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4408069633689-Receive-Send-NFT-on-Ballet-Cold-Storage",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我想把 TokenPocket 里的币转到 Ballet 冷钱包，在 TP 钱包里怎么把助记词导出来啊？",
+    "expected_title": "How to Import Cryptocurrency Asset from TokenPocket to Ballet Wallet by Using Recovery Seed",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/10913229786137-How-to-Import-Cryptocurrency-Asset-from-TokenPocket-to-Ballet-Wallet-by-Using-Recovery-Seed",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我在 Ballet 的 app 里找不到导入资产的按钮，是不是得先开那个专家模式？怎么开啊？",
+    "expected_title": "How to Import Cryptocurrency Asset from TokenPocket to Ballet Wallet by Using Recovery Seed",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/10913229786137-How-to-Import-Cryptocurrency-Asset-from-TokenPocket-to-Ballet-Wallet-by-Using-Recovery-Seed",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我想把别的钱包里的币转到Ballet卡上，但找不到导入的地方，是不是要先开什么模式才行？",
+    "expected_title": "다른 지갑에 있는 암호화폐를 Ballet Cold Storage 카드로 가져오려면 어떻게 해야 하나요?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50344297115417",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我有私钥想导入Ballet卡里，支持哪些格式的啊？",
+    "expected_title": "다른 지갑에 있는 암호화폐를 Ballet Cold Storage 카드로 가져오려면 어떻게 해야 하나요?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50344297115417",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我打算把 Ledger 里的币转到 Ballet 卡里，最后确认转账的时候，是不是必须得把 Ledger 插到电脑上输密码啊？",
+    "expected_title": "Import Crypto Assets from Ledger",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/29464071440409-Import-Crypto-Assets-from-Ledger",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我想用助记词把币导进卡里，但在 App 里半天没找到导入的按钮，是不是得先去开那个专家模式才行？",
+    "expected_title": "Import Crypto Assets from Ledger",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/29464071440409-Import-Crypto-Assets-from-Ledger",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我想知道卡里还有多少钱，怎么查啊？",
+    "expected_title": "How do I check the balance on my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036443174-How-do-I-check-the-balance-on-my-Ballet-Cold-Storage-card",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "APP里怎么看每种币各有多少？",
+    "expected_title": "How do I check the balance on my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036443174-How-do-I-check-the-balance-on-my-Ballet-Cold-Storage-card",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "我能往这个钱包里打好几次币吗？",
+    "expected_title": "Can I make multiple deposits to my Ballet wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037511854-Can-I-make-multiple-deposits-to-my-Ballet-wallet",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "我钱包里有好几种币，每种都能反复收款吗？",
+    "expected_title": "Can I make multiple deposits to my Ballet wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037511854-Can-I-make-multiple-deposits-to-my-Ballet-wallet",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "我手里有些狗狗币想转走，这个功能支持狗狗币吗？",
+    "expected_title": "여러 주소 또는 발레 상품으로 암호화폐 보내기",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50277054560665",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "收款地址太多了，能不能一次性批量导入？",
+    "expected_title": "여러 주소 또는 발레 상품으로 암호화폐 보내기",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50277054560665",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "我想把好几张卡里的币合并到一张卡上，当收款的那张卡是不是只能用 REAL 或者 PRO 系列的？",
+    "expected_title": "Important Notes Regarding the Bulk / Multiple Import Feature:",
+    "expected_url": "",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "我想用那个批量导入功能把以太坊（ETH）也导进去，怎么不行啊？这功能是不是不支持 ETH？",
+    "expected_title": "Important Notes Regarding the Bulk / Multiple Import Feature:",
+    "expected_url": "",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "我在 app 里找半天都没看到导入资产的按钮，怎么回事啊？",
+    "expected_title": "How do I import cryptocurrency from other wallets into my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500000382481-How-do-I-import-cryptocurrency-from-other-wallets-into-my-Ballet-Cold-Storage-card",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我手里有个 BIP38 格式的私钥，能直接导进卡里吗？",
+    "expected_title": "How do I import cryptocurrency from other wallets into my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500000382481-How-do-I-import-cryptocurrency-from-other-wallets-into-my-Ballet-Cold-Storage-card",
+    "category": "App Operation / Usage",
+    "in_domain": true
+  },
+  {
+    "question": "我把卡里的比特币转走，铭文是不是就跟着没了？",
+    "expected_title": "Notice: FOREVER Inscriptions Discontinued",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/42636376599065-Notice-FOREVER-Inscriptions-Discontinued",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "我之前弄的铭文现在还能转出去吗？",
+    "expected_title": "Notice: FOREVER Inscriptions Discontinued",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/42636376599065-Notice-FOREVER-Inscriptions-Discontinued",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "像门罗币、ADA这些挺火的币你们都不支持，反而一些冷门币能用，这是为啥？",
+    "expected_title": "Why are XMR, ADA, EOS, NEM, and several other popular cryptocurrencies not supported, while many lesser known ones are?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002344082-Why-are-XMR-ADA-EOS-NEM-and-several-other-popular-cryptocurrencies-not-supported-while-many-lesser-known-ones-are",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "那你们决定支不支持一个币，到底是看啥条件？技术上行就行了吗？",
+    "expected_title": "Why are XMR, ADA, EOS, NEM, and several other popular cryptocurrencies not supported, while many lesser known ones are?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002344082-Why-are-XMR-ADA-EOS-NEM-and-several-other-popular-cryptocurrencies-not-supported-while-many-lesser-known-ones-are",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "我想用隔空签名转点USDT，怎么找不到地方勾选？这功能是不是只能转比特币啊？",
+    "expected_title": "How to send cryptocurrencies using the Air-gapped Signing function.",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/6538081133081-How-to-send-cryptocurrencies-using-the-Air-gapped-Signing-function",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "在没网的手机上扫完交易码，接下来要扫卡上那个黄色的私钥码，请问那个黄色贴纸得先撕下来再扫吗？",
+    "expected_title": "How to send cryptocurrencies using the Air-gapped Signing function.",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/6538081133081-How-to-send-cryptocurrencies-using-the-Air-gapped-Signing-function",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "那个链都停了，我不动它行不行？BNB会不会直接没了？",
+    "expected_title": "Binance Coin (BNB) Migration: Important Announcement and Migration Methods",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/33087325901721-Binance-Coin-BNB-Migration-Important-Announcement-and-Migration-Methods",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "转完之后币怎么回到我卡上？用哪个地址接收啊？",
+    "expected_title": "Binance Coin (BNB) Migration: Important Announcement and Migration Methods",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/33087325901721-Binance-Coin-BNB-Migration-Important-Announcement-and-Migration-Methods",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "Ballet礼品卡有几种啊？都有啥不一样的地方？",
+    "expected_title": "Are there different types of Ballet Crypto Gift Cards? How are they different?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/55193677211033-Are-there-different-types-of-Ballet-Crypto-Gift-Cards-How-are-they-different",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "卡里的币能不能只转一部分出来？还是必须全转？",
+    "expected_title": "Are there different types of Ballet Crypto Gift Cards? How are they different?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/55193677211033-Are-there-different-types-of-Ballet-Crypto-Gift-Cards-How-are-they-different",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "我在淘宝上买的这个钱包，怎么查是不是正品啊？",
+    "expected_title": "How can I verify that my Ballet product is authentic and sourced from an official channel?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52901240520857-How-can-I-verify-that-my-Ballet-product-is-authentic-and-sourced-from-an-official-channel",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "除了官网，还有哪里能买到靠谱的？有没有官方店铺清单？",
+    "expected_title": "How can I verify that my Ballet product is authentic and sourced from an official channel?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52901240520857-How-can-I-verify-that-my-Ballet-product-is-authentic-and-sourced-from-an-official-channel",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "新出的彩色刮涂层跟之前灰色的比，哪个更安全啊？",
+    "expected_title": "Why did Ballet change the passphrase scratch-off design? Is the new color-patterned scratch-off more secure than the original gray version?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52901216693529-Why-did-Ballet-change-the-passphrase-scratch-off-design-Is-the-new-color-patterned-scratch-off-more-secure-than-the-original-gray-version",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "快递收到后怎么检查卡有没有被动过手脚？听说app能看出来的",
+    "expected_title": "Why did Ballet change the passphrase scratch-off design? Is the new color-patterned scratch-off more secure than the original gray version?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52901216693529-Why-did-Ballet-change-the-passphrase-scratch-off-design-Is-the-new-color-patterned-scratch-off-more-secure-than-the-original-gray-version",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "我卡上刮涂层那块怎么是彩色的不是灰色的啊，正常吗？",
+    "expected_title": "Why has the appearance of the Ballet REAL Series Cold Storage card changed, and when did this change take place?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52900920267801-Why-has-the-appearance-of-the-Ballet-REAL-Series-Cold-Storage-card-changed-and-when-did-this-change-take-place",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "这个新样式是什么时候开始换的呀？",
+    "expected_title": "Why has the appearance of the Ballet REAL Series Cold Storage card changed, and when did this change take place?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52900920267801-Why-has-the-appearance-of-the-Ballet-REAL-Series-Cold-Storage-card-changed-and-when-did-this-change-take-place",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "我收到个ballet的卡，里面的钱能只转一部分出来吗，剩下的留着下次用？",
+    "expected_title": "Why can’t the transfer amount on a Ballet Crypto Gift Card be modified?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/55193563990681-Why-can-t-the-transfer-amount-on-a-Ballet-Crypto-Gift-Card-be-modified",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "这卡能当普通钱包反复用吗？就是钱转空了之后再往里充点接着用。",
+    "expected_title": "Why can’t the transfer amount on a Ballet Crypto Gift Card be modified?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/55193563990681-Why-can-t-the-transfer-amount-on-a-Ballet-Crypto-Gift-Card-be-modified",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "我刚收到钱包，怎么看出那个贴纸和刮刮层有没有被人动过手脚？",
+    "expected_title": "How can I verify that my Ballet wallet’s private key can actually be decrypted by the wallet passphrase before I deposit funds to it?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490534-How-can-I-verify-that-my-Ballet-wallet-s-private-key-can-actually-be-decrypted-by-the-wallet-passphrase-before-I-deposit-funds-to-it",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "有没有什么网址能帮我查一下这个钱包是不是正品啊？",
+    "expected_title": "How can I verify that my Ballet wallet’s private key can actually be decrypted by the wallet passphrase before I deposit funds to it?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490534-How-can-I-verify-that-my-Ballet-wallet-s-private-key-can-actually-be-decrypted-by-the-wallet-passphrase-before-I-deposit-funds-to-it",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "我想给好几个人批量转点狗狗币和莱特币，这功能支持这两种币吗？还有用之前app里是不是得先开个什么专业模式？",
+    "expected_title": "Send Crypto to Multiple Addresses or Ballet Products",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4414599886105-Send-Crypto-to-Multiple-Addresses-or-Ballet-Products",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "我有个表格里存了一大堆收款地址，挨个扫码太费劲了，怎么把这些地址一次性弄到app的输入框里去啊？",
+    "expected_title": "Send Crypto to Multiple Addresses or Ballet Products",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4414599886105-Send-Crypto-to-Multiple-Addresses-or-Ballet-Products",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "这卡我需要把里面的密钥抄下来另外备份吗？",
+    "expected_title": "How do I back up my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037011373-How-do-I-back-up-my-Ballet-Cold-Storage-card",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "为啥官方不建议多弄几个备份防止弄丢啊？",
+    "expected_title": "How do I back up my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037011373-How-do-I-back-up-my-Ballet-Cold-Storage-card",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "刚收到的卡，我怎么检查有没有被人偷偷动过手脚啊？卡上的号和贴纸上的号对不上是不是就有问题？",
+    "expected_title": "Ballet Crypto Gift Card User Guide",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/17203927875353-Ballet-Crypto-Gift-Card-User-Guide",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "我想查一下卡里现在有多少币，必须得下载那个App吗？直接拿手机相机扫上面的二维码能不能看？",
+    "expected_title": "Ballet Crypto Gift Card User Guide",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/17203927875353-Ballet-Crypto-Gift-Card-User-Guide",
+    "category": "**\\*Multi-source Import Feature (For Sources A & B)**",
+    "in_domain": true
+  },
+  {
+    "question": "我手机丢了或者中病毒了，私钥会不会被别人偷走？",
+    "expected_title": "Does the Ballet Crypto app store my Ballet wallet private key on my mobile device or transmit it over the internet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900005501986-Does-the-Ballet-Crypto-app-store-my-Ballet-wallet-private-key-on-my-mobile-device-or-transmit-it-over-the-internet",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "转账的时候私钥会不会传到网上去，被黑客截获？",
+    "expected_title": "Does the Ballet Crypto app store my Ballet wallet private key on my mobile device or transmit it over the internet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900005501986-Does-the-Ballet-Crypto-app-store-my-Ballet-wallet-private-key-on-my-mobile-device-or-transmit-it-over-the-internet",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "卡丢了，里面的币还能找回来不？",
+    "expected_title": "What can I do if my Ballet wallet is lost or stolen?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036497334-What-can-I-do-if-my-Ballet-wallet-is-lost-or-stolen",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "手机上app还在，能不能从里面把币弄出来？",
+    "expected_title": "What can I do if my Ballet wallet is lost or stolen?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036497334-What-can-I-do-if-my-Ballet-wallet-is-lost-or-stolen",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "我想在亚马逊上买，怎么确认那个店铺是不是你们官方的呀？",
+    "expected_title": "How do I know if an Amazon listing or reseller product is an official Ballet product?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/57976458605337-How-do-I-know-if-an-Amazon-listing-or-reseller-product-is-an-official-Ballet-product",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "有人给我寄了个你们的钱包，但说要先交一笔激活费才能用，你们有这个收费吗？",
+    "expected_title": "How do I know if an Amazon listing or reseller product is an official Ballet product?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/57976458605337-How-do-I-know-if-an-Amazon-listing-or-reseller-product-is-an-official-Ballet-product",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "私钥是我自己生成的还是你们提前就弄好了？",
+    "expected_title": "Do Ballet Cold Storage Cards allow me to generate my own private keys?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002343862-Do-Ballet-Cold-Storage-Cards-allow-me-to-generate-my-own-private-keys",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "你们造卡的时候怎么保证没人能偷看到完整的私钥？",
+    "expected_title": "Do Ballet Cold Storage Cards allow me to generate my own private keys?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002343862-Do-Ballet-Cold-Storage-Cards-allow-me-to-generate-my-own-private-keys",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "自己生成私钥的钱包不是更安全吗？为什么反而说不安全？",
+    "expected_title": "Isn’t it safer to use cryptocurrency wallets that allow me to generate my own private keys?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360062629153-Isn-t-it-safer-to-use-cryptocurrency-wallets-that-allow-me-to-generate-my-own-private-keys",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "那些钱包的代码有没有人检查过？万一被人动了手脚怎么办？",
+    "expected_title": "Isn’t it safer to use cryptocurrency wallets that allow me to generate my own private keys?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360062629153-Isn-t-it-safer-to-use-cryptocurrency-wallets-that-allow-me-to-generate-my-own-private-keys",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "万一有坏人闯进你们工厂，能不能把里面的私钥偷走？",
+    "expected_title": "How do you make sure that company employees or anyone with access to Ballet manufacturing facilities cannot steal private key entropy or passphrase entropy during or after the manufacturing process?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490454-How-do-you-make-sure-that-company-employees-or-anyone-with-access-to-Ballet-manufacturing-facilities-cannot-steal-private-key-entropy-or-passphrase-entropy-during-or-after-the-manufacturing-process",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "造钱包的时候，你们员工会不会偷偷把密钥记下来，然后盗走我的钱？",
+    "expected_title": "How do you make sure that company employees or anyone with access to Ballet manufacturing facilities cannot steal private key entropy or passphrase entropy during or after the manufacturing process?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490454-How-do-you-make-sure-that-company-employees-or-anyone-with-access-to-Ballet-manufacturing-facilities-cannot-steal-private-key-entropy-or-passphrase-entropy-during-or-after-the-manufacturing-process",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "你们老板是谁啊？之前干过啥？",
+    "expected_title": "Why should I trust Ballet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036497394-Why-should-I-trust-Ballet",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "你们这卡用着安全吗？有没有出过丢币的事？",
+    "expected_title": "Why should I trust Ballet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036497394-Why-should-I-trust-Ballet",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "要是你们公司哪天倒闭了，我卡里的币是不是就取不出来了？",
+    "expected_title": "If the Ballet Crypto app ever gets delisted from the app store or the company shuts down, will I still be able to access the coins stored on my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036958393-If-the-Ballet-Crypto-app-ever-gets-delisted-from-the-app-store-or-the-company-shuts-down-will-I-still-be-able-to-access-the-coins-stored-on-my-Ballet-Cold-Storage-card",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "不用你们家的app，还有别的办法能把币转走吗？",
+    "expected_title": "If the Ballet Crypto app ever gets delisted from the app store or the company shuts down, will I still be able to access the coins stored on my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036958393-If-the-Ballet-Crypto-app-ever-gets-delisted-from-the-app-store-or-the-company-shuts-down-will-I-still-be-able-to-access-the-coins-stored-on-my-Ballet-Cold-Storage-card",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "如果你们公司被黑客攻击了，我卡里的币会不会被偷走？",
+    "expected_title": "If Ballet’s database or backend system is hacked, will the coins on my Ballet wallet be at risk?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002344022-If-Ballet-s-database-or-backend-system-is-hacked-will-the-coins-on-my-Ballet-wallet-be-at-risk",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "你们那边会不会偷偷存着我的私钥备份啊？万一泄露了怎么办",
+    "expected_title": "If Ballet’s database or backend system is hacked, will the coins on my Ballet wallet be at risk?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002344022-If-Ballet-s-database-or-backend-system-is-hacked-will-the-coins-on-my-Ballet-wallet-be-at-risk",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "我不小心把冷钱包卡弄丢了，里面的币你们官方能帮我找回来吗？",
+    "expected_title": "Do not lose your physical Ballet Cold Storage card!",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/40818956197017-Do-not-lose-your-physical-Ballet-Cold-Storage-card",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "你们官方系统里到底有没有存我的私钥备份啊？要是卡找不到了，能不能从你们后台把私钥导出来？",
+    "expected_title": "Do not lose your physical Ballet Cold Storage card!",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/40818956197017-Do-not-lose-your-physical-Ballet-Cold-Storage-card",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "刚拿到手，怎么查是不是正品啊？有地方能验吗？",
+    "expected_title": "How can I be sure that my Ballet wallet is authentic and has not been tampered with during transit from Ballet’s manufacturing facility?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037003773-How-can-I-be-sure-that-my-Ballet-wallet-is-authentic-and-has-not-been-tampered-with-during-transit-from-Ballet-s-manufacturing-facility",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "我怕快递路上被人动过手脚，你们这钱包有防拆或者防伪的设计吗？在哪能看详细介绍？",
+    "expected_title": "How can I be sure that my Ballet wallet is authentic and has not been tampered with during transit from Ballet’s manufacturing facility?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037003773-How-can-I-be-sure-that-my-Ballet-wallet-is-authentic-and-has-not-been-tampered-with-during-transit-from-Ballet-s-manufacturing-facility",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "你们说用户锁了10亿多美金的币，这个数字怎么算出来的？",
+    "expected_title": "Ballet recently announced that users secure over one billion dollars in crypto assets with Ballet products. How is this data gathered?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/53148815947929-Ballet-recently-announced-that-users-secure-over-one-billion-dollars-in-crypto-assets-with-Ballet-products-How-is-this-data-gathered",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "别的钱包也会公布这种数据吗？还是就你们有？",
+    "expected_title": "Ballet recently announced that users secure over one billion dollars in crypto assets with Ballet products. How is this data gathered?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/53148815947929-Ballet-recently-announced-that-users-secure-over-one-billion-dollars-in-crypto-assets-with-Ballet-products-How-is-this-data-gathered",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "这个卡放在家里，黑客能不能通过网络把它盗走？",
+    "expected_title": "Are Ballet Cold Storage cards safe from electronic hacking?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360060824114-Are-Ballet-Cold-Storage-cards-safe-from-electronic-hacking",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "转账的时候电脑要是中毒了，里面的币会不会被人转走？",
+    "expected_title": "Are Ballet Cold Storage cards safe from electronic hacking?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360060824114-Are-Ballet-Cold-Storage-cards-safe-from-electronic-hacking",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "我App上突然弹出来一个黄色的警告，说我的卡不安全了，是不是币被人偷了啊？好慌",
+    "expected_title": "Keep your assets secure!",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/23175594907417-Keep-your-assets-secure",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "那个防伪贴纸我已经刮掉了，这卡还能继续用吗？里面的币需要转走吗",
+    "expected_title": "Keep your assets secure!",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/23175594907417-Keep-your-assets-secure",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "你们厂里造卡的时候，内部员工能看到完整的私钥吗？会不会有人偷偷记下来把我的钱转走？",
+    "expected_title": "How are Ballet Cold Storage's keys generated?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490394-How-are-Ballet-Cold-Storage-s-keys-generated",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "我拿到手刮开背面涂层后，那个能直接转钱的真私钥是早就弄好的，还是我刮开之后才生成的？",
+    "expected_title": "How are Ballet Cold Storage's keys generated?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360036490394-How-are-Ballet-Cold-Storage-s-keys-generated",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "这卡掉水里会坏吗？要是被小偷偷了或者我自己弄丢了，里面的钱是不是就找不回来了？",
+    "expected_title": "Do Ballet Cold Storage cards have any potential vulnerabilities?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002223621-Do-Ballet-Cold-Storage-cards-have-any-potential-vulnerabilities",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "既然这卡不用联网，那我用电脑扫码转账的时候，要是电脑中病毒了，里面的钱会不会被黑客直接转走？",
+    "expected_title": "Do Ballet Cold Storage cards have any potential vulnerabilities?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002223621-Do-Ballet-Cold-Storage-cards-have-any-potential-vulnerabilities",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "app里扫出来地址背景变黄了，这是咋回事？卡坏了吗？",
+    "expected_title": "Risks of removing the QR code sticker and passphrase scratch-off",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/25011357866393-Risks-of-removing-the-QR-code-sticker-and-passphrase-scratch-off",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "第一次取完币之后，这个卡还能继续存币吗？安不安全？",
+    "expected_title": "Risks of removing the QR code sticker and passphrase scratch-off",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/25011357866393-Risks-of-removing-the-QR-code-sticker-and-passphrase-scratch-off",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "有人给我发短信说是Ballet客服，让我把卡的密码告诉他验证一下，这是骗子吧？",
+    "expected_title": "Security Alert: Protect Yourself and the Assets in Your Ballet Cold Storage Card",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/43814628045849-Security-Alert-Protect-Yourself-and-the-Assets-in-Your-Ballet-Cold-Storage-Card",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "我收到一封邮件让我点链接更新信息，看着像你们的，我该咋处理？",
+    "expected_title": "Security Alert: Protect Yourself and the Assets in Your Ballet Cold Storage Card",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/43814628045849-Security-Alert-Protect-Yourself-and-the-Assets-in-Your-Ballet-Cold-Storage-Card",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "这卡片怕水吗？不小心沾到水会不会废掉",
+    "expected_title": "Are Ballet Cold Storage cards durable?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360038005833-Are-Ballet-Cold-Storage-cards-durable",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "万一着火了这东西能保住吗？",
+    "expected_title": "Are Ballet Cold Storage cards durable?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360038005833-Are-Ballet-Cold-Storage-cards-durable",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "我账户突然收到一笔很小很小的转账，地址看着跟我常用的那个特别像，这是怎么回事？",
+    "expected_title": "Understand and Prevent Cryptocurrency Address Poisoning",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52304902801177-Understand-and-Prevent-Cryptocurrency-Address-Poisoning",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "每次转账我都只看地址的头尾几个字符对不对就行了，这样安全吗？",
+    "expected_title": "Understand and Prevent Cryptocurrency Address Poisoning",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52304902801177-Understand-and-Prevent-Cryptocurrency-Address-Poisoning",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "手机丢了或者被人拿了，里面的币会不会被转走啊？",
+    "expected_title": "Since the Ballet Crypto app does not have a password or PIN code, couldn’t anyone who accesses my mobile device steal the coins stored on my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002343962-Since-the-Ballet-Crypto-app-does-not-have-a-password-or-PIN-code-couldn-t-anyone-who-accesses-my-mobile-device-steal-the-coins-stored-on-my-Ballet-Cold-Storage-card",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "我换新手机了，原来的卡还能在新手机上用吗？",
+    "expected_title": "Since the Ballet Crypto app does not have a password or PIN code, couldn’t anyone who accesses my mobile device steal the coins stored on my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002343962-Since-the-Ballet-Crypto-app-does-not-have-a-password-or-PIN-code-couldn-t-anyone-who-accesses-my-mobile-device-steal-the-coins-stored-on-my-Ballet-Cold-Storage-card",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "在你们app里买币换币，你们Ballet会收集我的个人信息吗？",
+    "expected_title": "What personal information does Ballet collect when I buy or exchange cryptocurrency in the app?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037011313-What-personal-information-does-Ballet-collect-when-I-buy-or-exchange-cryptocurrency-in-the-app",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "我想用法币买币，需要提交哪些东西啊？",
+    "expected_title": "What personal information does Ballet collect when I buy or exchange cryptocurrency in the app?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/360037011313-What-personal-information-does-Ballet-collect-when-I-buy-or-exchange-cryptocurrency-in-the-app",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "你们这个app有没有漏洞啊？安全吗？",
+    "expected_title": "Does the Ballet Crypto mobile app have any vulnerabilities?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002344002-Does-the-Ballet-Crypto-mobile-app-have-any-vulnerabilities",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "要是我手机中了病毒，转账的时候币会不会被偷走？",
+    "expected_title": "Does the Ballet Crypto mobile app have any vulnerabilities?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/1500002344002-Does-the-Ballet-Crypto-mobile-app-have-any-vulnerabilities",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "最近听说Coldcard出事了，我的Ballet钱包还能放心用吗？",
+    "expected_title": "The Coldcard Incident: What Ballet Users Should Know",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/61055830793369-The-Coldcard-Incident-What-Ballet-Users-Should-Know",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "Coldcard那个事跟咱们Ballet有关系吗？我需要做点什么处理一下不？",
+    "expected_title": "The Coldcard Incident: What Ballet Users Should Know",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/61055830793369-The-Coldcard-Incident-What-Ballet-Users-Should-Know",
+    "category": "Security & Trust",
+    "in_domain": true
+  },
+  {
+    "question": "那个二维码贴纸怎么撕啊？黄色背景那个码是干啥的，扫它吗？",
+    "expected_title": "Swap Cryptocurrency (REAL Series & PRO Series)",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/6132946857497-Swap-Cryptocurrency-REAL-Series-PRO-Series",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "钱包密码在哪看啊？怎么显示出来？",
+    "expected_title": "Swap Cryptocurrency (REAL Series & PRO Series)",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/6132946857497-Swap-Cryptocurrency-REAL-Series-PRO-Series",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "买币的时候让输钱包序列号后三位，这个后三位在哪儿看啊？",
+    "expected_title": "Ballet Crypto 앱으로 암호화폐를 구매하는 방법",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50344381946009",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "我在app里想买点币，第一步该点哪里？整个过程怎么操作？",
+    "expected_title": "Ballet Crypto 앱으로 암호화폐를 구매하는 방법",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50344381946009",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "买完之后在哪儿看订单进度啊？",
+    "expected_title": "How to Buy Cryptocurrency with the Ballet Crypto App",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900005501826-How-to-Buy-Cryptocurrency-with-the-Ballet-Crypto-App",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "点完购买跳到别的网站去了，这正常吗？",
+    "expected_title": "How to Buy Cryptocurrency with the Ballet Crypto App",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900005501826-How-to-Buy-Cryptocurrency-with-the-Ballet-Crypto-App",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "你们这支持用 USDT 换 PEPE 吗？",
+    "expected_title": "Available SWAP Pairs Offered by MoonPay",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/45111844931609-Available-SWAP-Pairs-Offered-by-MoonPay",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "我在加州，是不是用不了你们的兑换服务啊？",
+    "expected_title": "Available SWAP Pairs Offered by MoonPay",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/45111844931609-Available-SWAP-Pairs-Offered-by-MoonPay",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "Ballet钱包里的币能直接转到我银行卡吗？",
+    "expected_title": "Can I transfer crypto from my Ballet wallet directly to my bank account?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/58964850505497-Can-I-transfer-crypto-from-my-Ballet-wallet-directly-to-my-bank-account",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "如果我这卖不了币，还有什么办法能把币换成钱？",
+    "expected_title": "Can I transfer crypto from my Ballet wallet directly to my bank account?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/58964850505497-Can-I-transfer-crypto-from-my-Ballet-wallet-directly-to-my-bank-account",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "换币的时候，那个加密私钥在卡上什么位置？是不是要把表面那个QR码贴纸撕掉才能看到？",
+    "expected_title": "암호화폐 스왑(REAL 시리즈 & PRO 시리즈)",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50344481605017",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "第5步说要输入钱包密码，这个密码具体是什么？在卡的哪里找？",
+    "expected_title": "암호화폐 스왑(REAL 시리즈 & PRO 시리즈)",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/50344481605017",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "买币的时候能用支付宝或者微信付款吗？支持哪些支付方式？",
+    "expected_title": "Buy Cryptocurrency with Simplex",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/13290243172505-Buy-Cryptocurrency-with-Simplex",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "买完币之后怎么查订单状态？在哪里能看到有没有到账？",
+    "expected_title": "Buy Cryptocurrency with Simplex",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/13290243172505-Buy-Cryptocurrency-with-Simplex",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "买币过程中碰到问题该找谁？Ballet客服能帮我查Simplex那边的订单吗？",
+    "expected_title": "Buy Cryptocurrency with Simplex",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/13290243172505-Buy-Cryptocurrency-with-Simplex",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "我转账的时候显示手续费不够，但是我卡里明明有钱啊，这是啥情况？",
+    "expected_title": "What does“Insufficient funds to pay transaction fee” mean?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/12749968682905-What-does-Insufficient-funds-to-pay-transaction-fee-mean",
+    "category": "Transaction / Gas Fee",
+    "in_domain": true
+  },
+  {
+    "question": "我卡里有USDT怎么就是转不出去呢？是不是还得另外充点别的币才行？",
+    "expected_title": "What does“Insufficient funds to pay transaction fee” mean?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/12749968682905-What-does-Insufficient-funds-to-pay-transaction-fee-mean",
+    "category": "Transaction / Gas Fee",
+    "in_domain": true
+  },
+  {
+    "question": "这卡要是被偷了或者丢了，里面的币还能找回来吗？",
+    "expected_title": "#Do Ballet Cold Storage cards have any potential vulnerabilities?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740537490969--Do-Ballet-Cold-Storage-cards-have-any-potential-vulnerabilities",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "用这个卡转账的时候，电脑中毒了会不会把币转走？",
+    "expected_title": "#Do Ballet Cold Storage cards have any potential vulnerabilities?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740537490969--Do-Ballet-Cold-Storage-cards-have-any-potential-vulnerabilities",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "这卡没电也没网，黑客能不能远程把我的币转走？",
+    "expected_title": "#Are Ballet Cold Storage cards safe from electronic hacking?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740438168473--Are-Ballet-Cold-Storage-cards-safe-from-electronic-hacking",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "要是我电脑中了木马，用这卡转账的时候币会不会被偷？",
+    "expected_title": "#Are Ballet Cold Storage cards safe from electronic hacking?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740438168473--Are-Ballet-Cold-Storage-cards-safe-from-electronic-hacking",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我钱包里USDT明明有钱，为啥转不出去啊？",
+    "expected_title": "Why do I need to have ETH on my wallet in order to send ERC20 tokens?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900005567983-Why-do-I-need-to-have-ETH-on-my-wallet-in-order-to-send-ERC20-tokens",
+    "category": "Transaction / Gas Fee",
+    "in_domain": true
+  },
+  {
+    "question": "我就想转个USDT，凭什么还得让我钱包里有ETH？",
+    "expected_title": "Why do I need to have ETH on my wallet in order to send ERC20 tokens?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900005567983-Why-do-I-need-to-have-ETH-on-my-wallet-in-order-to-send-ERC20-tokens",
+    "category": "Transaction / Gas Fee",
+    "in_domain": true
+  },
+  {
+    "question": "这卡片能放多久啊？会不会像U盘那样放个几年就坏了？",
+    "expected_title": "#Are Ballet Cold Storage cards durable?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740793307673--Are-Ballet-Cold-Storage-cards-durable",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "这玩意儿掉水里没事吧？不过要是遇到火灾或者碰到什么化学药水是不是就废了？",
+    "expected_title": "#Are Ballet Cold Storage cards durable?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740793307673--Are-Ballet-Cold-Storage-cards-durable",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我币转出去之后，是不是全网都能看到了？怎么才算真正安全到账啊？",
+    "expected_title": "Understanding Blockchain Transactions",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/30029757381017-Understanding-Blockchain-Transactions",
+    "category": "Transaction / Gas Fee",
+    "in_domain": true
+  },
+  {
+    "question": "我刚才转的币怎么一直卡着没动静啊？是网太堵了还是我手续费给少了？",
+    "expected_title": "Understanding Blockchain Transactions",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/30029757381017-Understanding-Blockchain-Transactions",
+    "category": "Transaction / Gas Fee",
+    "in_domain": true
+  },
+  {
+    "question": "我刚才在app里把币卖了，卖币的钱大概多久能打到我的银行卡上？我怎么查看这笔钱到账没？",
+    "expected_title": "How to Sell Cryptocurrency with the Ballet Crypto App",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900005501946-How-to-Sell-Cryptocurrency-with-the-Ballet-Crypto-App",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "我在软件里点完卖出，怎么突然跳到别的网页去了？还要在那个网站上重新注册账号，这是咋回事？",
+    "expected_title": "How to Sell Cryptocurrency with the Ballet Crypto App",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/900005501946-How-to-Sell-Cryptocurrency-with-the-Ballet-Crypto-App",
+    "category": "Buy, Sell & Swap",
+    "in_domain": true
+  },
+  {
+    "question": "我手机要是丢了，别人能不能从手机里翻出我的私钥啊？",
+    "expected_title": "#Does the Ballet Crypto app store my Ballet wallet private key on my mobile device or transmit it over the internet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739471632793--Does-the-Ballet-Crypto-app-store-my-Ballet-wallet-private-key-on-my-mobile-device-or-transmit-it-over-the-internet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我用app往外转币的时候，私钥会不会被传到网上去？",
+    "expected_title": "#Does the Ballet Crypto app store my Ballet wallet private key on my mobile device or transmit it over the internet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739471632793--Does-the-Ballet-Crypto-app-store-my-Ballet-wallet-private-key-on-my-mobile-device-or-transmit-it-over-the-internet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "万一你们工厂被黑客入侵了，我的币会不会被偷走？",
+    "expected_title": "#How are Ballet Cold Storage's private keys generated?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739462062489--How-are-Ballet-Cold-Storage-s-private-keys-generated",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我拿到手的时候，私钥是不是已经生成好了？",
+    "expected_title": "#How are Ballet Cold Storage's private keys generated?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739462062489--How-are-Ballet-Cold-Storage-s-private-keys-generated",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "万一卡丢了，能不能把私钥导出来备份一下？",
+    "expected_title": "#How do I back up my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739762415129--How-do-I-back-up-my-Ballet-Cold-Storage-card",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "这卡要是被别人拿走了，里面的币是不是就归他了？",
+    "expected_title": "#How do I back up my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739762415129--How-do-I-back-up-my-Ballet-Cold-Storage-card",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "卡上好几个地方都有序列号，我怎么知道它们是不是配套的？",
+    "expected_title": "#How are Ballet passphrase entropy and private key entropy are matched correctly during the manufacturing process?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741727453721--How-are-Ballet-passphrase-entropy-and-private-key-entropy-are-matched-correctly-during-the-manufacturing-process",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们生成密钥分两步，中间那个代码传来传去的，安不安全啊？",
+    "expected_title": "#How are Ballet passphrase entropy and private key entropy are matched correctly during the manufacturing process?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741727453721--How-are-Ballet-passphrase-entropy-and-private-key-entropy-are-matched-correctly-during-the-manufacturing-process",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们是每个钱包都检查，还是随机抽几个看看啊？",
+    "expected_title": "#How does Ballet ensure that there are no defects in the manufacturing process?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741828888217--How-does-Ballet-ensure-that-there-are-no-defects-in-the-manufacturing-process",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "检查完的钱包为啥要给销毁掉？",
+    "expected_title": "#How does Ballet ensure that there are no defects in the manufacturing process?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741828888217--How-does-Ballet-ensure-that-there-are-no-defects-in-the-manufacturing-process",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "生产完之后，电脑里存的密钥数据是不是就彻底清掉了？会不会被人恢复出来？",
+    "expected_title": "#How do you make sure that company employees or anyone with access to Ballet manufacturing facilities cannot steal private key entropy or passphrase entropy during or after the manufacturing process?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739862591385--How-do-you-make-sure-that-company-employees-or-anyone-with-access-to-Ballet-manufacturing-facilities-cannot-steal-private-key-entropy-or-passphrase-entropy-during-or-after-the-manufacturing-process",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "要是有人硬闯进你们工厂，能不能把密钥数据偷走？",
+    "expected_title": "#How do you make sure that company employees or anyone with access to Ballet manufacturing facilities cannot steal private key entropy or passphrase entropy during or after the manufacturing process?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739862591385--How-do-you-make-sure-that-company-employees-or-anyone-with-access-to-Ballet-manufacturing-facilities-cannot-steal-private-key-entropy-or-passphrase-entropy-during-or-after-the-manufacturing-process",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "刚收到的钱包怎么查是不是正品？",
+    "expected_title": "#How can I be sure that my Ballet wallet is authentic and has not been tampered with during transit from Ballet’s manufacturing facility?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740131877657--How-can-I-be-sure-that-my-Ballet-wallet-is-authentic-and-has-not-been-tampered-with-during-transit-from-Ballet-s-manufacturing-facility",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我怎么知道快递寄过来这中间，没被人偷偷拆开过或者动过手脚？",
+    "expected_title": "#How can I be sure that my Ballet wallet is authentic and has not been tampered with during transit from Ballet’s manufacturing facility?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740131877657--How-can-I-be-sure-that-my-Ballet-wallet-is-authentic-and-has-not-been-tampered-with-during-transit-from-Ballet-s-manufacturing-facility",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们怎么确定每个钱包的密钥都没问题才拿出来卖的？",
+    "expected_title": "#How do you verify that each Ballet wallet’s private key entropy can be decrypted by the passphrase entropy before selling wallets to the public?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741746158361--How-do-you-verify-that-each-Ballet-wallet-s-private-key-entropy-can-be-decrypted-by-the-passphrase-entropy-before-selling-wallets-to-the-public",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们抽查的时候会把钱包拆开测试，那拆过的钱包最后怎么处理？",
+    "expected_title": "#How do you verify that each Ballet wallet’s private key entropy can be decrypted by the passphrase entropy before selling wallets to the public?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741746158361--How-do-you-verify-that-each-Ballet-wallet-s-private-key-entropy-can-be-decrypted-by-the-passphrase-entropy-before-selling-wallets-to-the-public",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们造卡的时候，怎么保证没人能偷看到我的私钥啊？具体啥原理？",
+    "expected_title": "#How is it possible to generate a private key entropy without knowing the passphrase entropy needed to decrypt it?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741825160985--How-is-it-possible-to-generate-a-private-key-entropy-without-knowing-the-passphrase-entropy-needed-to-decrypt-it",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "那个中间码是啥玩意儿？跟我设的密码有啥关系？",
+    "expected_title": "#How is it possible to generate a private key entropy without knowing the passphrase entropy needed to decrypt it?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741825160985--How-is-it-possible-to-generate-a-private-key-entropy-without-knowing-the-passphrase-entropy-needed-to-decrypt-it",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们这个手机App安全吗？会不会有漏洞把我的币盗走啊？",
+    "expected_title": "# Does the Ballet Crypto mobile app have any vulnerabilities?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740865098649--Does-the-Ballet-Crypto-mobile-app-have-any-vulnerabilities",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们这个卡怎么跟手机连啊？也要插线或者连蓝牙吗？",
+    "expected_title": "# Does the Ballet Crypto mobile app have any vulnerabilities?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740865098649--Does-the-Ballet-Crypto-mobile-app-have-any-vulnerabilities",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我手机要是被人偷了，里面的币会不会也被转走啊？",
+    "expected_title": "#Since the Ballet Crypto app does not have a password or PIN code, couldn’t anyone who accesses my mobile device steal the coins stored on my Ballet wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740860311577--Since-the-Ballet-Crypto-app-does-not-have-a-password-or-PIN-code-couldn-t-anyone-who-accesses-my-mobile-device-steal-the-coins-stored-on-my-Ballet-wallet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "这个app连个密码都没有，别人拿到我手机不就随便操作了？",
+    "expected_title": "#Since the Ballet Crypto app does not have a password or PIN code, couldn’t anyone who accesses my mobile device steal the coins stored on my Ballet wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740860311577--Since-the-Ballet-Crypto-app-does-not-have-a-password-or-PIN-code-couldn-t-anyone-who-accesses-my-mobile-device-steal-the-coins-stored-on-my-Ballet-wallet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "要是你们公司的服务器被黑客黑了，我卡里的币会不会被盗啊？",
+    "expected_title": "#If Ballet’s database or backend system is hacked, will the coins on my Ballet wallet be at risk?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740533424921--If-Ballet-s-database-or-backend-system-is-hacked-will-the-coins-on-my-Ballet-wallet-be-at-risk",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们自己后台到底有没有偷偷存我的私钥备份？",
+    "expected_title": "#If Ballet’s database or backend system is hacked, will the coins on my Ballet wallet be at risk?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740533424921--If-Ballet-s-database-or-backend-system-is-hacked-will-the-coins-on-my-Ballet-wallet-be-at-risk",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我的卡不小心弄丢了，找你们客服能帮我查一下把里面的币找回来吗？",
+    "expected_title": "#What can I do if my Ballet wallet is lost or stolen?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739754429465--What-can-I-do-if-my-Ballet-wallet-is-lost-or-stolen",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "这卡要是被别人捡到了或者偷了，他是不是直接就能把我里面的钱拿走啊？",
+    "expected_title": "#What can I do if my Ballet wallet is lost or stolen?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739754429465--What-can-I-do-if-my-Ballet-wallet-is-lost-or-stolen",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "这钱包里面到底装没装我的币啊？没电是怎么存钱的？",
+    "expected_title": "#How is it possible to store cryptocurrency on a non-electronic device such as a Ballet wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741546698649--How-is-it-possible-to-store-cryptocurrency-on-a-non-electronic-device-such-as-a-Ballet-wallet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "这卡掉水里或者摔地上会不会坏啊？防水防摔不？",
+    "expected_title": "#How is it possible to store cryptocurrency on a non-electronic device such as a Ballet wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741546698649--How-is-it-possible-to-store-cryptocurrency-on-a-non-electronic-device-such-as-a-Ballet-wallet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们的私钥会不会存在手机app里啊？被黑客偷了怎么办？",
+    "expected_title": "#What’s the difference between Ballet Cold Storage and non-custodial software wallets?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9742505976601--What-s-the-difference-between-Ballet-Cold-Storage-and-non-custodial-software-wallets",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "不下载app能直接往里转币吗？",
+    "expected_title": "#What’s the difference between Ballet Cold Storage and non-custodial software wallets?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9742505976601--What-s-the-difference-between-Ballet-Cold-Storage-and-non-custodial-software-wallets",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我在App里买卖币，你们官方会收集我的个人信息吗？",
+    "expected_title": "#What personal information does Ballet collect when I buy or exchange cryptocurrency in the app?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740852543257--What-personal-information-does-Ballet-collect-when-I-buy-or-exchange-cryptocurrency-in-the-app",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "用银行卡在App里买币的话，需要填啥资料？",
+    "expected_title": "#What personal information does Ballet collect when I buy or exchange cryptocurrency in the app?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740852543257--What-personal-information-does-Ballet-collect-when-I-buy-or-exchange-cryptocurrency-in-the-app",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "要是你们公司以后倒闭了，或者那个APP被下架了，我卡里的币是不是就拿不出来了？",
+    "expected_title": "#If the Ballet Crypto app ever gets delisted from the app store or the company shuts down, will I still be able to access the coins stored on my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740449028377--If-the-Ballet-Crypto-app-ever-gets-delisted-from-the-app-store-or-the-company-shuts-down-will-I-still-be-able-to-access-the-coins-stored-on-my-Ballet-Cold-Storage-card",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我不想用你们的APP了，用别的第三方钱包能把我卡里的币导出来吗？",
+    "expected_title": "#If the Ballet Crypto app ever gets delisted from the app store or the company shuts down, will I still be able to access the coins stored on my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740449028377--If-the-Ballet-Crypto-app-ever-gets-delisted-from-the-app-store-or-the-company-shuts-down-will-I-still-be-able-to-access-the-coins-stored-on-my-Ballet-Cold-Storage-card",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "这钱包买回来不用连电脑弄半天吧？拆开盒子直接就能用了？",
+    "expected_title": "#Is the Ballet REAL Series really the world’s easiest cryptocurrency wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741442415769--Is-the-Ballet-REAL-Series-really-the-world-s-easiest-cryptocurrency-wallet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "用这个还要注册账号吗？那一长串密码和助记词我是不是都不用抄下来了？",
+    "expected_title": "#Is the Ballet REAL Series really the world’s easiest cryptocurrency wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741442415769--Is-the-Ballet-REAL-Series-really-the-world-s-easiest-cryptocurrency-wallet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "这卡片掉水里还能用吗？比我自己打印的那种纸钱包结实吧？",
+    "expected_title": "#What's the difference between Ballet Cold Storage cards and traditional paper wallets like bitaddress.org?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9742464492057--What-s-the-difference-between-Ballet-Cold-Storage-cards-and-traditional-paper-wallets-like-bitaddress-org",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我拿到手怎么确认里面的密码没被别人偷看过或者复制走啊？",
+    "expected_title": "#What's the difference between Ballet Cold Storage cards and traditional paper wallets like bitaddress.org?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9742464492057--What-s-the-difference-between-Ballet-Cold-Storage-cards-and-traditional-paper-wallets-like-bitaddress-org",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我想看看里面还有多少钱，或者想转个账，是不是必须得找根线连电脑啊？",
+    "expected_title": "#What’s the difference between Ballet wallets (non-electronic bearer assets) and wallets like OpenDime and Tangem (electronic bearer assets)?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9742114629145--What-s-the-difference-between-Ballet-wallets-non-electronic-bearer-assets-and-wallets-like-OpenDime-and-Tangem-electronic-bearer-assets",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "这卡放抽屉里几年不管，会不会没电坏了？以后还要不要连网升级系统啊？",
+    "expected_title": "#What’s the difference between Ballet wallets (non-electronic bearer assets) and wallets like OpenDime and Tangem (electronic bearer assets)?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9742114629145--What-s-the-difference-between-Ballet-wallets-non-electronic-bearer-assets-and-wallets-like-OpenDime-and-Tangem-electronic-bearer-assets",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我想自己生成私钥行不行？还是只能用你们卡里已经弄好的？",
+    "expected_title": "#Do Ballet wallets allow me to generate my own private keys?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739564579225--Do-Ballet-wallets-allow-me-to-generate-my-own-private-keys",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们造这个卡的时候，私钥是怎么弄的？会不会有员工偷偷看到我的私钥啊？",
+    "expected_title": "#Do Ballet wallets allow me to generate my own private keys?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739564579225--Do-Ballet-wallets-allow-me-to-generate-my-own-private-keys",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "听说有种攻击能直接破解硬件钱包的芯片把币偷走，我用的Ballet卡会被这样破解吗？",
+    "expected_title": "What is a “chip attack” and are Ballet Cold Storage Cards vulnerable?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/23384736127769-What-is-a-chip-attack-and-are-Ballet-Cold-Storage-Cards-vulnerable",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "那个'芯片攻击'到底是个啥？黑客具体是用什么手段把硬件钱包里的私钥搞出来的？",
+    "expected_title": "What is a “chip attack” and are Ballet Cold Storage Cards vulnerable?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/23384736127769-What-is-a-chip-attack-and-are-Ballet-Cold-Storage-Cards-vulnerable",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我下了你们的手机APP，想问下能不能在里面改一下钱包密码？",
+    "expected_title": "#Can I use the mobile app to set a new wallet passphrase?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741387826585--Can-I-use-the-mobile-app-to-set-a-new-wallet-passphrase",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "这卡里的密码是出厂就弄好的吗？我能不能自己重新弄一个？",
+    "expected_title": "#Can I use the mobile app to set a new wallet passphrase?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741387826585--Can-I-use-the-mobile-app-to-set-a-new-wallet-passphrase",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我手上有个私钥，想转到Ballet卡里，支持哪几种格式的？",
+    "expected_title": "#How do I import cryptocurrency from other wallets into my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741283319577--How-do-I-import-cryptocurrency-from-other-wallets-into-my-Ballet-Cold-Storage-card",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "以前钱包的助记词我还留着，能不能用助记词把币导进Ballet卡？",
+    "expected_title": "#How do I import cryptocurrency from other wallets into my Ballet Cold Storage card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741283319577--How-do-I-import-cryptocurrency-from-other-wallets-into-my-Ballet-Cold-Storage-card",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我在APP里多开了几个币的账户，地址会变吗？还是用原来的？",
+    "expected_title": "#Does the Ballet Crypto app generate new cryptocurrency addresses when I activate additional cryptocurrency accounts on my Ballet wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741832625689--Does-the-Ballet-Crypto-app-generate-new-cryptocurrency-addresses-when-I-activate-additional-cryptocurrency-accounts-on-my-Ballet-wallet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "卡片上二维码只印了一个地址，其他币的地址从哪来的？",
+    "expected_title": "#Does the Ballet Crypto app generate new cryptocurrency addresses when I activate additional cryptocurrency accounts on my Ballet wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741832625689--Does-the-Ballet-Crypto-app-generate-new-cryptocurrency-addresses-when-I-activate-additional-cryptocurrency-accounts-on-my-Ballet-wallet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们家这冷钱包是哪年出的呀？到现在有没有出过什么丢币或者机器坏掉的事故？",
+    "expected_title": "#Why should I trust Ballet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739869980697--Why-should-I-trust-Ballet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们老板以前不是做过那种实体的比特币嘛，那批东西后来没被黑客偷过吗？",
+    "expected_title": "#Why should I trust Ballet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739869980697--Why-should-I-trust-Ballet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我把币放交易所，万一平台被黑客黑了或者跑路了，我的钱还能找回来吗？",
+    "expected_title": "#Why is it better to store cryptocurrency on a Ballet Cold Storage card rather than a custodial service such as an exchange or custodial wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9742473281561--Why-is-it-better-to-store-cryptocurrency-on-a-Ballet-Cold-Storage-card-rather-than-a-custodial-service-such-as-an-exchange-or-custodial-wallet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "放交易所的话，会不会哪天突然被冻结账号或者被没收啊？",
+    "expected_title": "#Why is it better to store cryptocurrency on a Ballet Cold Storage card rather than a custodial service such as an exchange or custodial wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9742473281561--Why-is-it-better-to-store-cryptocurrency-on-a-Ballet-Cold-Storage-card-rather-than-a-custodial-service-such-as-an-exchange-or-custodial-wallet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我想往卡里转第一笔币，不想下你们的APP，直接拿我平时的钱包扫卡上的二维码能收进去吗？",
+    "expected_title": "#Do I need to use the Ballet Crypto mobile app to deposit cryptocurrency to my Ballet wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741667465113--Do-I-need-to-use-the-Ballet-Crypto-mobile-app-to-deposit-cryptocurrency-to-my-Ballet-wallet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "那我要是往里面存点别的币，不是默认的那种，是不是就必须得用你们的官方APP才能弄？",
+    "expected_title": "#Do I need to use the Ballet Crypto mobile app to deposit cryptocurrency to my Ballet wallet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741667465113--Do-I-need-to-use-the-Ballet-Crypto-mobile-app-to-deposit-cryptocurrency-to-my-Ballet-wallet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "那个隔空签名的功能是不是只能用来转比特币啊？我想转其他的币能用吗？",
+    "expected_title": "#How to send cryptocurrencies using the Air-gapped Signing function.",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741067638425--How-to-send-cryptocurrencies-using-the-Air-gapped-Signing-function",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "在没网的那台手机上操作时，是不是还得把卡上的贴纸抠下来，去扫里面那个黄色的二维码？",
+    "expected_title": "#How to send cryptocurrencies using the Air-gapped Signing function.",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741067638425--How-to-send-cryptocurrencies-using-the-Air-gapped-Signing-function",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我想往卡里转USDT，这个功能支持吗？都能转哪些币啊？",
+    "expected_title": "#Send Crypto to Multiple Addresses or Ballet Products",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741042369177--Send-Crypto-to-Multiple-Addresses-or-Ballet-Products",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "第六步说要撕掉上面的二维码贴纸，撕掉之后我的收款地址是不是就没了？",
+    "expected_title": "#Send Crypto to Multiple Addresses or Ballet Products",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741042369177--Send-Crypto-to-Multiple-Addresses-or-Ballet-Products",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我在app里激活新币种的时候，地址是当时现生成的吗？还是提前就弄好了？",
+    "expected_title": "#When I activate additional cryptocurrency accounts in the Ballet Crypto app, how are those addresses generated?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741480809369--When-I-activate-additional-cryptocurrency-accounts-in-the-Ballet-Crypto-app-how-are-those-addresses-generated",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我的地址都存你们数据库里，那私钥呢？你们后台能不能看到我的私钥？",
+    "expected_title": "#When I activate additional cryptocurrency accounts in the Ballet Crypto app, how are those addresses generated?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741480809369--When-I-activate-additional-cryptocurrency-accounts-in-the-Ballet-Crypto-app-how-are-those-addresses-generated",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "都说能让自己生成私钥的钱包更安全，这是真的吗？",
+    "expected_title": "#Isn’t it safer to use cryptocurrency wallets that allow me to generate my own private keys?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739573410073--Isn-t-it-safer-to-use-cryptocurrency-wallets-that-allow-me-to-generate-my-own-private-keys",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我自己生成私钥的话，要是用的那个硬件设备有bug或者被人动了手脚，币是不是就全没了？",
+    "expected_title": "#Isn’t it safer to use cryptocurrency wallets that allow me to generate my own private keys?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9739573410073--Isn-t-it-safer-to-use-cryptocurrency-wallets-that-allow-me-to-generate-my-own-private-keys",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "ADA、门罗这些大币为啥都不支持？你们到底按什么标准选币的？",
+    "expected_title": "#Why are XMR, ADA, EOS, NEM, and several other popular cryptocurrencies not supported, while many lesser known ones are?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741001580185--Why-are-XMR-ADA-EOS-NEM-and-several-other-popular-cryptocurrencies-not-supported-while-many-lesser-known-ones-are",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们这个钱包是用了什么技术？为啥有些币就是没办法存进去？",
+    "expected_title": "#Why are XMR, ADA, EOS, NEM, and several other popular cryptocurrencies not supported, while many lesser known ones are?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741001580185--Why-are-XMR-ADA-EOS-NEM-and-several-other-popular-cryptocurrencies-not-supported-while-many-lesser-known-ones-are",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们说的地址和账户是一回事吗？我看你们有时候用地址有时候用账户的",
+    "expected_title": "#What’s the difference between a cryptocurrency address and a cryptocurrency account?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741643398425--What-s-the-difference-between-a-cryptocurrency-address-and-a-cryptocurrency-account",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "那个地址具体指的是啥？是卡上贴的那串字母数字吗？",
+    "expected_title": "#What’s the difference between a cryptocurrency address and a cryptocurrency account?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741643398425--What-s-the-difference-between-a-cryptocurrency-address-and-a-cryptocurrency-account",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我在App里找不到导入资产的地方，是不是得先打开那个专家模式才行？",
+    "expected_title": "#How to transfer the assets on your BTCC Mint coin to your Ballet wallet.",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740963140633--How-to-transfer-the-assets-on-your-BTCC-Mint-coin-to-your-Ballet-wallet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "币转进钱包之后，那些分叉币怎么弄出来用？在哪个页面激活啊？",
+    "expected_title": "#How to transfer the assets on your BTCC Mint coin to your Ballet wallet.",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9740963140633--How-to-transfer-the-assets-on-your-BTCC-Mint-coin-to-your-Ballet-wallet",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我在app里扫了卡之后，私钥是不是就存在手机里了？",
+    "expected_title": "#What’s the difference between a Ballet Cold Storage card and a virtual Ballet card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741624850841--What-s-the-difference-between-a-Ballet-Cold-Storage-card-and-a-virtual-Ballet-card",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "转币的时候为啥非得用那张实体卡？手机上直接操作不行吗？",
+    "expected_title": "#What’s the difference between a Ballet Cold Storage card and a virtual Ballet card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741624850841--What-s-the-difference-between-a-Ballet-Cold-Storage-card-and-a-virtual-Ballet-card",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "稳定币到底是啥？跟普通币有啥不一样的地方？",
+    "expected_title": "What is a stablecoin?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/15176764837529-What-is-a-stablecoin",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "稳定币是自己单独有条链吗？还是搭在以太坊那些上面的？",
+    "expected_title": "What is a stablecoin?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/15176764837529-What-is-a-stablecoin",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "稳定币跟比特币有啥不一样？会不会像比特币那样暴涨暴跌的？",
+    "expected_title": "What are the benefits of stablecoins?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/15176837644441-What-are-the-benefits-of-stablecoins",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "往国外转钱麻烦不？需不需要实名认证？手续费高不高？",
+    "expected_title": "What are the benefits of stablecoins?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/15176837644441-What-are-the-benefits-of-stablecoins",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我买的那个预生产样品，跟现在正式卖的款在外观和用料上差别大不大？",
+    "expected_title": "#What’s the difference between standard Ballet wallets and pre-production samples?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741542375449--What-s-the-difference-between-standard-Ballet-wallets-and-pre-production-samples",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "这种预生产的样品版钱包放币安全吗？能正常用不？",
+    "expected_title": "#What’s the difference between standard Ballet wallets and pre-production samples?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741542375449--What-s-the-difference-between-standard-Ballet-wallets-and-pre-production-samples",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我看钱包上有个序列号，这串数字是干嘛用的？",
+    "expected_title": "#Why do Ballet wallets have serial numbers?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741883493913--Why-do-Ballet-wallets-have-serial-numbers",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "你们后台会不会根据这个序列号查到我的个人信息啊？",
+    "expected_title": "#Why do Ballet wallets have serial numbers?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9741883493913--Why-do-Ballet-wallets-have-serial-numbers",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "用稳定币是不是肯定有风险啊？有没有啥办法能完全避开？",
+    "expected_title": "How can I avoid the risks of stablecoins?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/15177215541145-How-can-I-avoid-the-risks-of-stablecoins",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "抵押稳定币和算法稳定币，买哪个相对更安全一点？",
+    "expected_title": "How can I avoid the risks of stablecoins?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/15177215541145-How-can-I-avoid-the-risks-of-stablecoins",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "刚收到货，怎么查这卡有没有被别人偷偷拆过啊？",
+    "expected_title": "How can I check if the product has been tampered with?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52442656288409-How-can-I-check-if-the-product-has-been-tampered-with",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "我拿到的卡颜色跟图片上不一样，是不是买到假货了？还能正常用不？",
+    "expected_title": "How can I check if the product has been tampered with?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52442656288409-How-can-I-check-if-the-product-has-been-tampered-with",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "稳定币到底算不算去中心化啊？感觉跟那些虚拟货币差不多。",
+    "expected_title": "Are stablecoins decentralized?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/15176842199577-Are-stablecoins-decentralized",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "那稳定币背后的钱到底存在哪儿，谁在管着啊？",
+    "expected_title": "Are stablecoins decentralized?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/15176842199577-Are-stablecoins-decentralized",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "快递外包装看着都烂了，我能直接拒收不要吗？",
+    "expected_title": "What should I do if my package is damaged?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52442591837337-What-should-I-do-if-my-package-is-damaged",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "包裹收到发现坏了，我接下来要怎么弄才能退或者换？",
+    "expected_title": "What should I do if my package is damaged?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52442591837337-What-should-I-do-if-my-package-is-damaged",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "我想退货的话具体要怎么弄啊？",
+    "expected_title": "How do I return my purchase?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52442615907865-How-do-I-return-my-purchase",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "退货的邮费是我自己出吗，能不能直接寄到付？",
+    "expected_title": "How do I return my purchase?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52442615907865-How-do-I-return-my-purchase",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "寄到美国的话运费怎么算？是不是走普通快递就不用出邮费了？",
+    "expected_title": "How much does shipping cost?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4411975245209-How-much-does-shipping-cost",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "要是寄到美国以外的地方，邮费大概多少？另外过海关要是被收了税，这钱是包含在付款里了还是要我自己再掏？",
+    "expected_title": "How much does shipping cost?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4411975245209-How-much-does-shipping-cost",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "我下单好几天了怎么还没看到快递单号？是不是邮件被拦截了或者我邮箱填错了？",
+    "expected_title": "What can I do if I haven't received the tracking number for my order yet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52442397869977-What-can-I-do-if-I-haven-t-received-the-tracking-number-for-my-order-yet",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "要是等了快三天还是没物流信息，我该找谁催单啊？客服邮箱是多少？",
+    "expected_title": "What can I do if I haven't received the tracking number for my order yet?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52442397869977-What-can-I-do-if-I-haven-t-received-the-tracking-number-for-my-order-yet",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "我在国内，下单之后大概多久能收到货啊？",
+    "expected_title": "How long does shipping take?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4411981903257-How-long-does-shipping-take",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "快递都三天了还没更新物流信息，是不是丢件了？该找谁？",
+    "expected_title": "How long does shipping take?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4411981903257-How-long-does-shipping-take",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "物流显示已送达但我没拿到，快递员会不会给我放信箱或者邻居那儿了？",
+    "expected_title": "Why does the tracking number show “Delivered” even though I haven’t received my order?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52442515854617-Why-does-the-tracking-number-show-Delivered-even-though-I-haven-t-received-my-order",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "会不会是物流系统出bug提前更新了，其实东西还在路上？要是找了一圈都没找到，我该找谁解决啊？",
+    "expected_title": "Why does the tracking number show “Delivered” even though I haven’t received my order?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/52442515854617-Why-does-the-tracking-number-show-Delivered-even-though-I-haven-t-received-my-order",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "要是稳定币跌破1比1了，我还能把它转到别的钱包吗？是不是就不能去交易所换回原来的钱了？",
+    "expected_title": "What are the risks of stablecoins?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/15177132349081-What-are-the-risks-of-stablecoins",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "那种算法稳定币是不是风险更大啊？听说智能合约要是出bug，钱就被发行方锁死拿不出来了？",
+    "expected_title": "What are the risks of stablecoins?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/15177132349081-What-are-the-risks-of-stablecoins",
+    "category": "Geek FAQ",
+    "in_domain": true
+  },
+  {
+    "question": "我周末下的单什么时候能发货啊？要是赶上高峰期是不是得等特别久？",
+    "expected_title": "When will my order ship out?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4411981983769-When-will-my-order-ship-out",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "东西寄出来之后我怎么查物流进度啊？会给我发快递单号吗？",
+    "expected_title": "When will my order ship out?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4411981983769-When-will-my-order-ship-out",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "寄到国内的话，快递送来的时候会不会还要我再掏钱交税？",
+    "expected_title": "Will I have to pay customs fees?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4411975499161-Will-I-have-to-pay-customs-fees",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "我在网站上看到的价格就是最终要付的钱吗？还是说到手还要加钱？",
+    "expected_title": "Will I have to pay customs fees?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4411975499161-Will-I-have-to-pay-customs-fees",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "我在亚马逊上买的，不满意能退吗？",
+    "expected_title": "Money Back Guarantee Refund Policy",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9355634315417-Money-Back-Guarantee-Refund-Policy",
+    "category": "Return Policy",
+    "in_domain": true
+  },
+  {
+    "question": "退货寄回去之后，钱大概多久能到我账上？",
+    "expected_title": "Money Back Guarantee Refund Policy",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/9355634315417-Money-Back-Guarantee-Refund-Policy",
+    "category": "Return Policy",
+    "in_domain": true
+  },
+  {
+    "question": "我的订单发货了吗？去哪看快递单号啊？",
+    "expected_title": "How can I track my order?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4411975335321-How-can-I-track-my-order",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "快递三天都没动静了，或者一直没收到，我该找谁处理？",
+    "expected_title": "How can I track my order?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4411975335321-How-can-I-track-my-order",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "快递盒子都破开了，不过里面的卡包装还是密封的，这种情况我还能直接往里面充钱用吗？",
+    "expected_title": "What should I do if my package arrives opened or damaged?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/58964839726105-What-should-I-do-if-my-package-arrives-opened-or-damaged",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "要是发现里面的卡被动过手脚，我要拍照发给客服处理，具体都得拍些啥？拍卡正面的时候有啥绝对不能拍到的地方吗？",
+    "expected_title": "What should I do if my package arrives opened or damaged?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/58964839726105-What-should-I-do-if-my-package-arrives-opened-or-damaged",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "我的单子是从哪个仓库发货的呀？是就近给我寄吗？",
+    "expected_title": "Where does my order ship from?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4411982008985-Where-does-my-order-ship-from",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "如果离我近的仓库没货了咋办，你们客服会主动联系我改时间吗？",
+    "expected_title": "Where does my order ship from?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/4411982008985-Where-does-my-order-ship-from",
+    "category": "Shipping",
+    "in_domain": true
+  },
+  {
+    "question": "Ballet跟BTCC啥关系啊？是同一个老板做的吗？",
+    "expected_title": "BTCC Mint Legacy",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/27477486928153-BTCC-Mint-Legacy",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "之前BTCC出的那些实体比特币有没有丢过币或者出过安全问题？",
+    "expected_title": "BTCC Mint Legacy",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/27477486928153-BTCC-Mint-Legacy",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "放交易所和放这个实体卡里，哪个更安全啊？",
+    "expected_title": "The Usecase of Physical Bitcoin",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20413949533593-The-Usecase-of-Physical-Bitcoin",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "朋友收到这个当生日礼物，他拿到手能直接花吗？还是要先弄一下？",
+    "expected_title": "The Usecase of Physical Bitcoin",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20413949533593-The-Usecase-of-Physical-Bitcoin",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "我住在纽约，能买你们的实物比特币吗？",
+    "expected_title": "Supported  States and Jurisdictions",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/14001228682265-Supported-States-and-Jurisdictions",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "为啥有些地方买不了啊？是有什么限制吗？",
+    "expected_title": "Supported  States and Jurisdictions",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/14001228682265-Supported-States-and-Jurisdictions",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "买你们的东西为啥还要验证身份啊？",
+    "expected_title": "How Does KYC Work?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/17883604670105-How-Does-KYC-Work",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "下单金额越大，要交的资料就越多吗？",
+    "expected_title": "How Does KYC Work?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/17883604670105-How-Does-KYC-Work",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "为啥同样的币在你们这买比交易所贵啊？",
+    "expected_title": "Why is the price of PURE Bitcoin higher than the price of bitcoin on an exchange?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20412335706393-Why-is-the-price-of-PURE-Bitcoin-higher-than-the-price-of-bitcoin-on-an-exchange",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "我买这个卡，除了比特币本身还付了哪些钱？",
+    "expected_title": "Why is the price of PURE Bitcoin higher than the price of bitcoin on an exchange?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20412335706393-Why-is-the-price-of-PURE-Bitcoin-higher-than-the-price-of-bitcoin-on-an-exchange",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "这个卡能像银行卡那样直接刷卡买东西吗？",
+    "expected_title": "Can PURE Bitcoin be used for shopping?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20412501486489-Can-PURE-Bitcoin-be-used-for-shopping",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "既然不能拿来付款，为啥要做成银行卡的样子，这卡到底是干啥用的？",
+    "expected_title": "Can PURE Bitcoin be used for shopping?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20412501486489-Can-PURE-Bitcoin-be-used-for-shopping",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "我这个卡还能不能再往里面多充点比特币进去？",
+    "expected_title": "Can I refill my PURE Bitcoin card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20412476322585-Can-I-refill-my-PURE-Bitcoin-card",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "为啥官方不推荐往卡里追加比特币啊？",
+    "expected_title": "Can I refill my PURE Bitcoin card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20412476322585-Can-I-refill-my-PURE-Bitcoin-card",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "放在你们卡里的比特币，你们官方能偷偷看到或者冻结吗？",
+    "expected_title": "Can Ballet access the bitcoin stored on a PURE Bitcoin card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20412563772441-Can-Ballet-access-the-bitcoin-stored-on-a-PURE-Bitcoin-card",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "新卡拿到手后，我要做啥验证才能完全自己掌控里面的比特币？",
+    "expected_title": "Can Ballet access the bitcoin stored on a PURE Bitcoin card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20412563772441-Can-Ballet-access-the-bitcoin-stored-on-a-PURE-Bitcoin-card",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "实体卡里的比特币怎么转出来啊？",
+    "expected_title": "How can I transfer bitcoin off of a Physical Bitcoin?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20412437613209-How-can-I-transfer-bitcoin-off-of-a-Physical-Bitcoin",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "不用你们app的话，别的钱包能转出币吗？",
+    "expected_title": "How can I transfer bitcoin off of a Physical Bitcoin?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20412437613209-How-can-I-transfer-bitcoin-off-of-a-Physical-Bitcoin",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "怎么查我这张卡里有多少比特币啊？",
+    "expected_title": "How can I see the amount of bitcoin stored on a PURE Bitcoin card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20412431312793-How-can-I-see-the-amount-of-bitcoin-stored-on-a-PURE-Bitcoin-card",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "你们那个看余额的app在哪下？",
+    "expected_title": "How can I see the amount of bitcoin stored on a PURE Bitcoin card?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20412431312793-How-can-I-see-the-amount-of-bitcoin-stored-on-a-PURE-Bitcoin-card",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "这个 PURE Bitcoin 到底是个啥？买回来就是一张实体的卡对吧？",
+    "expected_title": "What is PURE Bitcoin?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20412295655961-What-is-PURE-Bitcoin",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "这卡里是自带比特币的吗？卡面写的金额和里面实际装的币数量是一样的吧？",
+    "expected_title": "What is PURE Bitcoin?",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/20412295655961-What-is-PURE-Bitcoin",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "我想把里面的比特币直接换成钱转到银行卡，在你们这能直接操作吗？",
+    "expected_title": "How to Sell Your Physical Bitcoin",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/15356891185177-How-to-Sell-Your-Physical-Bitcoin",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "我把币转到交易所之后要是出问题了，比如交易所跑路了，你们管不管？",
+    "expected_title": "How to Sell Your Physical Bitcoin",
+    "expected_url": "https://support.ballet.com/hc/en-us/articles/15356891185177-How-to-Sell-Your-Physical-Bitcoin",
+    "category": "Physical Bitcoin",
+    "in_domain": true
+  },
+  {
+    "question": "今天北京天气怎么样？",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  },
+  {
+    "question": "帮我写一首关于秋天的诗",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  },
+  {
+    "question": "Python 怎么读取 JSON 文件？",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  },
+  {
+    "question": "1 加 1 等于几？",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  },
+  {
+    "question": "推荐几部好看的科幻电影",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  },
+  {
+    "question": "How do I cook pasta?",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  },
+  {
+    "question": "北京到上海有多远？",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  },
+  {
+    "question": "解释一下量子纠缠",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  },
+  {
+    "question": "帮我写一封辞职信",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  },
+  {
+    "question": "给我讲个笑话",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  },
+  {
+    "question": "特斯拉股票现在多少钱？",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  },
+  {
+    "question": "怎么减肥最快？",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  },
+  {
+    "question": "明天是星期几？",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  },
+  {
+    "question": "帮我翻译一句英文",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  },
+  {
+    "question": "世界上最高的山是哪座？",
+    "expected_title": null,
+    "expected_url": null,
+    "category": null,
+    "in_domain": false
+  }
+]

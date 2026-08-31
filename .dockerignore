@@ -11,3 +11,5 @@ docs/
 README.md
 
 # 注意：vector_store/ 刻意【不】排除，Dockerfile 需要 COPY 它。
+requirements-experiments.txt
+eval/

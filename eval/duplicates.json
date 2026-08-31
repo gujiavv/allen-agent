@@ -1,0 +1,200 @@
+{
+  "Crypto Assets Supported by Ballet": [
+    "Ballet이 지원하는 암호화 자산"
+  ],
+  "When I activate additional cryptocurrency accounts in the Ballet Crypto app, how are those addresses generated?": [
+    "#When I activate additional cryptocurrency accounts in the Ballet Crypto app, how are those addresses generated?"
+  ],
+  "How is it possible to store cryptocurrency on a non-electronic device such as a Ballet Cold Storage?": [
+    "#How is it possible to store cryptocurrency on a non-electronic device such as a Ballet wallet?"
+  ],
+  "What’s the difference between a cryptocurrency address and a cryptocurrency account?": [
+    "#What’s the difference between a cryptocurrency address and a cryptocurrency account?"
+  ],
+  "Do I need to use the Ballet Crypto mobile app to deposit cryptocurrency to my Ballet Cold Storage card??": [
+    "How do I deposit cryptocurrency to my Ballet Cold Storage?"
+  ],
+  "How are Ballet passphrase entropy and private key entropy are matched correctly during the manufacturing process?": [
+    "#How are Ballet passphrase entropy and private key entropy are matched correctly during the manufacturing process?"
+  ],
+  "How is it possible to generate a private key entropy without knowing the passphrase entropy needed to decrypt it?": [
+    "#How is it possible to generate a private key entropy without knowing the passphrase entropy needed to decrypt it?"
+  ],
+  "Does the Ballet Crypto app generate new cryptocurrency addresses when I activate additional cryptocurrency accounts on my Ballet Cold Storage card?": [
+    "#Does the Ballet Crypto app generate new cryptocurrency addresses when I activate additional cryptocurrency accounts on my Ballet wallet?"
+  ],
+  "What's the difference between Ballet Cold Storage and traditional paper wallets like bitaddress.org?": [
+    "#What's the difference between Ballet Cold Storage cards and traditional paper wallets like bitaddress.org?"
+  ],
+  "Why is it better to store cryptocurrency on a Ballet Cold Storage card rather than a custodial service such as an exchange or custodial wallet?": [
+    "#Why is it better to store cryptocurrency on a Ballet Cold Storage card rather than a custodial service such as an exchange or custodial wallet?"
+  ],
+  "What’s the difference between Ballet Cold Storage and non-custodial software wallets?": [
+    "#What’s the difference between Ballet Cold Storage and non-custodial software wallets?"
+  ],
+  "How do I deposit cryptocurrency to my Ballet Cold Storage?": [
+    "Do I need to use the Ballet Crypto mobile app to deposit cryptocurrency to my Ballet Cold Storage card??"
+  ],
+  "Ballet이 지원하는 암호화 자산": [
+    "Crypto Assets Supported by Ballet"
+  ],
+  "Coinbase에서 암호화폐 자산 가져오기": [
+    "Import Crypto Assets from Coinbase"
+  ],
+  "How to transfer the assets on your BTCC Mint coin to your Ballet wallet.": [
+    "#How to transfer the assets on your BTCC Mint coin to your Ballet wallet."
+  ],
+  "Import Crypto Assets from Coinbase": [
+    "Coinbase에서 암호화폐 자산 가져오기"
+  ],
+  "Import Crypto Assets from Ledger": [
+    "Ledger에서 암호 자산 가져오기"
+  ],
+  "Ledger에서 암호 자산 가져오기": [
+    "Import Crypto Assets from Ledger"
+  ],
+  "다른 지갑에 있는 암호화폐를 Ballet Cold Storage 카드로 가져오려면 어떻게 해야 하나요?": [
+    "How do I import cryptocurrency from other wallets into my Ballet Cold Storage card?"
+  ],
+  "How do I import cryptocurrency from other wallets into my Ballet Cold Storage card?": [
+    "#How do I import cryptocurrency from other wallets into my Ballet Cold Storage card?",
+    "다른 지갑에 있는 암호화폐를 Ballet Cold Storage 카드로 가져오려면 어떻게 해야 하나요?"
+  ],
+  "Why are XMR, ADA, EOS, NEM, and several other popular cryptocurrencies not supported, while many lesser known ones are?": [
+    "#Why are XMR, ADA, EOS, NEM, and several other popular cryptocurrencies not supported, while many lesser known ones are?"
+  ],
+  "How do I back up my Ballet Cold Storage card?": [
+    "#How do I back up my Ballet Cold Storage card?"
+  ],
+  "What can I do if my Ballet wallet is lost or stolen?": [
+    "#What can I do if my Ballet wallet is lost or stolen?"
+  ],
+  "Does the Ballet Crypto app store my Ballet wallet private key on my mobile device or transmit it over the internet?": [
+    "#Does the Ballet Crypto app store my Ballet wallet private key on my mobile device or transmit it over the internet?"
+  ],
+  "How are Ballet Cold Storage's keys generated?": [
+    "#How are Ballet Cold Storage's private keys generated?"
+  ],
+  "Isn’t it safer to use cryptocurrency wallets that allow me to generate my own private keys?": [
+    "#Isn’t it safer to use cryptocurrency wallets that allow me to generate my own private keys?"
+  ],
+  "How do you make sure that company employees or anyone with access to Ballet manufacturing facilities cannot steal private key entropy or passphrase entropy during or after the manufacturing process?": [
+    "#How do you make sure that company employees or anyone with access to Ballet manufacturing facilities cannot steal private key entropy or passphrase entropy during or after the manufacturing process?"
+  ],
+  "Why should I trust Ballet?": [
+    "#Why should I trust Ballet?"
+  ],
+  "How can I be sure that my Ballet wallet is authentic and has not been tampered with during transit from Ballet’s manufacturing facility?": [
+    "#How can I be sure that my Ballet wallet is authentic and has not been tampered with during transit from Ballet’s manufacturing facility?"
+  ],
+  "If the Ballet Crypto app ever gets delisted from the app store or the company shuts down, will I still be able to access the coins stored on my Ballet Cold Storage card?": [
+    "#If the Ballet Crypto app ever gets delisted from the app store or the company shuts down, will I still be able to access the coins stored on my Ballet Cold Storage card?"
+  ],
+  "Are Ballet Cold Storage cards safe from electronic hacking?": [
+    "#Are Ballet Cold Storage cards safe from electronic hacking?",
+    "#Do Ballet Cold Storage cards have any potential vulnerabilities?",
+    "Do Ballet Cold Storage cards have any potential vulnerabilities?"
+  ],
+  "If Ballet’s database or backend system is hacked, will the coins on my Ballet wallet be at risk?": [
+    "#If Ballet’s database or backend system is hacked, will the coins on my Ballet wallet be at risk?"
+  ],
+  "Do Ballet Cold Storage cards have any potential vulnerabilities?": [
+    "#Do Ballet Cold Storage cards have any potential vulnerabilities?",
+    "Are Ballet Cold Storage cards safe from electronic hacking?"
+  ],
+  "Are Ballet Cold Storage cards durable?": [
+    "#Are Ballet Cold Storage cards durable?"
+  ],
+  "What personal information does Ballet collect when I buy or exchange cryptocurrency in the app?": [
+    "#What personal information does Ballet collect when I buy or exchange cryptocurrency in the app?"
+  ],
+  "Does the Ballet Crypto mobile app have any vulnerabilities?": [
+    "# Does the Ballet Crypto mobile app have any vulnerabilities?"
+  ],
+  "# Does the Ballet Crypto mobile app have any vulnerabilities?": [
+    "Does the Ballet Crypto mobile app have any vulnerabilities?"
+  ],
+  "#Are Ballet Cold Storage cards durable?": [
+    "Are Ballet Cold Storage cards durable?"
+  ],
+  "#Are Ballet Cold Storage cards safe from electronic hacking?": [
+    "#Do Ballet Cold Storage cards have any potential vulnerabilities?",
+    "Are Ballet Cold Storage cards safe from electronic hacking?"
+  ],
+  "#Do Ballet Cold Storage cards have any potential vulnerabilities?": [
+    "#Are Ballet Cold Storage cards safe from electronic hacking?",
+    "Are Ballet Cold Storage cards safe from electronic hacking?",
+    "Do Ballet Cold Storage cards have any potential vulnerabilities?"
+  ],
+  "#Does the Ballet Crypto app store my Ballet wallet private key on my mobile device or transmit it over the internet?": [
+    "Does the Ballet Crypto app store my Ballet wallet private key on my mobile device or transmit it over the internet?"
+  ],
+  "#How are Ballet Cold Storage's private keys generated?": [
+    "How are Ballet Cold Storage's keys generated?"
+  ],
+  "#How are Ballet passphrase entropy and private key entropy are matched correctly during the manufacturing process?": [
+    "How are Ballet passphrase entropy and private key entropy are matched correctly during the manufacturing process?"
+  ],
+  "#How can I be sure that my Ballet wallet is authentic and has not been tampered with during transit from Ballet’s manufacturing facility?": [
+    "How can I be sure that my Ballet wallet is authentic and has not been tampered with during transit from Ballet’s manufacturing facility?"
+  ],
+  "#How do I back up my Ballet Cold Storage card?": [
+    "How do I back up my Ballet Cold Storage card?"
+  ],
+  "#How do you make sure that company employees or anyone with access to Ballet manufacturing facilities cannot steal private key entropy or passphrase entropy during or after the manufacturing process?": [
+    "How do you make sure that company employees or anyone with access to Ballet manufacturing facilities cannot steal private key entropy or passphrase entropy during or after the manufacturing process?"
+  ],
+  "#How is it possible to generate a private key entropy without knowing the passphrase entropy needed to decrypt it?": [
+    "How is it possible to generate a private key entropy without knowing the passphrase entropy needed to decrypt it?"
+  ],
+  "#How is it possible to store cryptocurrency on a non-electronic device such as a Ballet wallet?": [
+    "How is it possible to store cryptocurrency on a non-electronic device such as a Ballet Cold Storage?"
+  ],
+  "#If Ballet’s database or backend system is hacked, will the coins on my Ballet wallet be at risk?": [
+    "If Ballet’s database or backend system is hacked, will the coins on my Ballet wallet be at risk?"
+  ],
+  "#If the Ballet Crypto app ever gets delisted from the app store or the company shuts down, will I still be able to access the coins stored on my Ballet Cold Storage card?": [
+    "If the Ballet Crypto app ever gets delisted from the app store or the company shuts down, will I still be able to access the coins stored on my Ballet Cold Storage card?"
+  ],
+  "#What can I do if my Ballet wallet is lost or stolen?": [
+    "What can I do if my Ballet wallet is lost or stolen?"
+  ],
+  "#What personal information does Ballet collect when I buy or exchange cryptocurrency in the app?": [
+    "What personal information does Ballet collect when I buy or exchange cryptocurrency in the app?"
+  ],
+  "#What's the difference between Ballet Cold Storage cards and traditional paper wallets like bitaddress.org?": [
+    "What's the difference between Ballet Cold Storage and traditional paper wallets like bitaddress.org?"
+  ],
+  "#What’s the difference between Ballet Cold Storage and non-custodial software wallets?": [
+    "What’s the difference between Ballet Cold Storage and non-custodial software wallets?"
+  ],
+  "#Why is it better to store cryptocurrency on a Ballet Cold Storage card rather than a custodial service such as an exchange or custodial wallet?": [
+    "Why is it better to store cryptocurrency on a Ballet Cold Storage card rather than a custodial service such as an exchange or custodial wallet?"
+  ],
+  "#Why should I trust Ballet?": [
+    "Why should I trust Ballet?"
+  ],
+  "#Does the Ballet Crypto app generate new cryptocurrency addresses when I activate additional cryptocurrency accounts on my Ballet wallet?": [
+    "#When I activate additional cryptocurrency accounts in the Ballet Crypto app, how are those addresses generated?",
+    "Does the Ballet Crypto app generate new cryptocurrency addresses when I activate additional cryptocurrency accounts on my Ballet Cold Storage card?"
+  ],
+  "#How do I import cryptocurrency from other wallets into my Ballet Cold Storage card?": [
+    "How do I import cryptocurrency from other wallets into my Ballet Cold Storage card?"
+  ],
+  "#How to transfer the assets on your BTCC Mint coin to your Ballet wallet.": [
+    "How to transfer the assets on your BTCC Mint coin to your Ballet wallet."
+  ],
+  "#Isn’t it safer to use cryptocurrency wallets that allow me to generate my own private keys?": [
+    "Isn’t it safer to use cryptocurrency wallets that allow me to generate my own private keys?"
+  ],
+  "#What’s the difference between a cryptocurrency address and a cryptocurrency account?": [
+    "What’s the difference between a cryptocurrency address and a cryptocurrency account?"
+  ],
+  "#When I activate additional cryptocurrency accounts in the Ballet Crypto app, how are those addresses generated?": [
+    "#Does the Ballet Crypto app generate new cryptocurrency addresses when I activate additional cryptocurrency accounts on my Ballet wallet?",
+    "When I activate additional cryptocurrency accounts in the Ballet Crypto app, how are those addresses generated?"
+  ],
+  "#Why are XMR, ADA, EOS, NEM, and several other popular cryptocurrencies not supported, while many lesser known ones are?": [
+    "Why are XMR, ADA, EOS, NEM, and several other popular cryptocurrencies not supported, while many lesser known ones are?"
+  ]
+}
