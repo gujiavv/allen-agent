@@ -33,6 +33,12 @@ RAG_TOP_K = int(os.getenv("RAG_TOP_K", "4"))
 # 该默认值由 calibrate.py 用域内/域外两组问题实测标定，勿凭感觉改。
 RAG_SCORE_THRESHOLD = float(os.getenv("RAG_SCORE_THRESHOLD", "0.45"))
 
+# ---- 访问密码 ----
+# 刻意不给默认值，也绝不把密码写进源码：本仓库是公开的，硬编码等于没设。
+# 本地放在 .env（已 gitignore），线上放在 Railway 的环境变量面板。
+# 留空则不鉴权——/health 里的 auth_enabled 字段会如实反映，便于事后核对。
+UI_PASSWORD = os.getenv("UI_PASSWORD", "")
+
 # ---- 部署版本标识 ----
 # Railway 会给「连接了 GitHub 仓库」的服务自动注入这些变量。
 # 如果线上 /health 里 commit 显示 unknown，说明该服务不是从 GitHub 构建的

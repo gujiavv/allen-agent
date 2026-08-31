@@ -197,6 +197,48 @@ git add vector_store/ && git commit -m "rebuild vector index"
 注意重建后一定要重跑 `calibrate.py`：阈值 0.45 是针对当前这批文档实测出来的，
 换了语料就不一定还能把域内/域外问题分开。
 
+## 访问密码
+
+页面和接口都需要密码，防止公开部署被人白嫖模型额度。
+
+**密码存在环境变量 `UI_PASSWORD` 里，绝不写进源码**——本仓库是公开的，
+硬编码的密码任何人打开仓库就能看到，等于没设。
+
+- 本地：写在 `.env`（已 gitignore）
+- 线上：写在部署平台的环境变量面板。`.env` 既 gitignore 又 dockerignore，
+  永远不会被带到线上，必须单独配置
+
+**留空则完全不鉴权**，页面和接口全部敞开。这是为了本地开发方便，但也意味着
+线上忘了配就等于没设防。用 `/health` 的 `auth_enabled` 字段核对：
+
+```bash
+curl -s https://<你的域名>/health | grep auth_enabled
+```
+
+### 保护范围
+
+| 路径 | 是否需要密码 | 说明 |
+|---|---|---|
+| `/ui` | ✅ 登录页 | 用户名随便填，只校验密码 |
+| `/chat` | ✅ 请求头 | `X-API-Password` |
+| `/chat/stream` | ✅ 请求头 | 同上。只锁 `/chat` 不锁它等于没锁 |
+| `/health` | ❌ | Railway 靠它做存活探测，加鉴权会让部署被判失败 |
+| `/myapp` | ❌ | 无敏感内容，也不消耗额度 |
+
+页面的自调用同样要过鉴权，不给内部调用开后门——省得哪天后门比正门还好走。
+
+### 接口调用示例
+
+```bash
+curl -X POST https://<你的域名>/chat \
+  -H 'Content-Type: application/json' \
+  -H 'X-API-Password: <你的密码>' \
+  -d '{"message":"Ballet 有客服电话吗？"}'
+```
+
+密码比对用的是 `secrets.compare_digest` 而非 `==`：后者会在第一个不同字符处
+提前返回，响应耗时会泄漏已经猜对了多少位。
+
 ## 怎么确认 Railway 部署的是最新代码
 
 `/health` 会自报版本，不用去翻部署面板：

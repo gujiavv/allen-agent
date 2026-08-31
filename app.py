@@ -2,9 +2,10 @@
 """FastAPI 装配层：定义路由、挂载 Gradio 前端。业务逻辑都在 rag/ 和 llm.py 里。"""
 import json
 import logging
+import secrets
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException
+from fastapi import Depends, FastAPI, Header, HTTPException
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
@@ -30,6 +31,26 @@ class ChatRequest(BaseModel):
     message: str
 
 
+def require_password(x_api_password: str | None = Header(None)) -> None:
+    """校验请求头里的访问密码。
+
+    没配 UI_PASSWORD 时不鉴权，方便本地开发；线上是否真的生效，
+    可以查 /health 里的 auth_enabled 字段。
+
+    用 compare_digest 而不是 == ：后者会在第一个不同字符处提前返回，
+    响应耗时会泄漏已猜对多少位。
+    """
+    if not config.UI_PASSWORD:
+        return
+    if not x_api_password or not secrets.compare_digest(
+        x_api_password, config.UI_PASSWORD
+    ):
+        raise HTTPException(
+            status_code=401,
+            detail="需要访问密码，请在 X-API-Password 请求头中提供",
+        )
+
+
 class Source(BaseModel):
     title: str
     url: str
@@ -44,7 +65,7 @@ class ChatResponse(BaseModel):
     sources: list[Source] = []
 
 
-@app.post("/chat", response_model=ChatResponse)
+@app.post("/chat", response_model=ChatResponse, dependencies=[Depends(require_password)])
 async def chat(request: ChatRequest):
     """核心Agent接口：能从知识库检索到就用文档回答，否则退回大模型自身知识。"""
     try:
@@ -54,7 +75,7 @@ async def chat(request: ChatRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@app.post("/chat/stream")
+@app.post("/chat/stream", dependencies=[Depends(require_password)])
 async def chat_stream(request: ChatRequest):
     """/chat 的流式版本，用 SSE 逐段推送。
 
@@ -114,6 +135,9 @@ async def health():
         "branch": config.BRANCH or None,
         "rag_enabled": rag_enabled,
         "chunks": chunks,
+        # 忘了在部署平台配 UI_PASSWORD 时，这里会是 false——服务照常能用，
+        # 但接口是敞开的。放个字段出来，免得又变成一个没人察觉的问题。
+        "auth_enabled": bool(config.UI_PASSWORD),
     }
 
 

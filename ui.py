@@ -12,7 +12,9 @@
 甚至把用户提问发给毫不相干的第三方。ASGITransport 从根上消除了这个风险。
 """
 import json
+import logging
 import os
+import secrets
 import time
 
 # 必须在 import gradio 之前设置：Gradio 默认会在导入时向 api.gradio.app
@@ -21,6 +23,10 @@ os.environ.setdefault("GRADIO_ANALYTICS_ENABLED", "False")
 
 import gradio as gr  # noqa: E402
 import httpx  # noqa: E402
+
+import config  # noqa: E402
+
+logger = logging.getLogger(__name__)
 
 # ASGITransport 不做 DNS 解析，host 只是个占位符
 CHAT_URL = "http://asgi.internal/chat"
@@ -86,7 +92,14 @@ async def _respond(message: str, history):
         return "\n\n---\n🤖 *知识库中没有相关文档，以上由大模型自身知识作答。*"
 
     try:
-        async with _client.stream("POST", STREAM_URL, json={"message": message}) as response:
+        # 页面自调用也要过鉴权：/chat/stream 对所有调用方一视同仁，
+        # 不给内部调用开后门，省得哪天后门比正门还好走。
+        headers = (
+            {"X-API-Password": config.UI_PASSWORD} if config.UI_PASSWORD else {}
+        )
+        async with _client.stream(
+            "POST", STREAM_URL, json={"message": message}, headers=headers
+        ) as response:
             response.raise_for_status()
             async for line in response.aiter_lines():
                 if not line.startswith("data: "):
@@ -130,12 +143,35 @@ def build_demo() -> gr.Blocks:
     )
 
 
+def _check_login(username: str, password: str) -> bool:
+    """只校验密码，用户名随便填。
+
+    compare_digest 是定时安全比较，避免响应耗时泄漏已猜对多少位。
+    """
+    return bool(config.UI_PASSWORD) and secrets.compare_digest(
+        password, config.UI_PASSWORD
+    )
+
+
 def mount_ui(app):
-    """把 Gradio 页面挂到传入的 FastAPI 实例的 /ui 路径上。"""
+    """把 Gradio 页面挂到传入的 FastAPI 实例的 /ui 路径上。
+
+    配了 UI_PASSWORD 就要求登录；没配则直接开放，方便本地开发。
+    线上是否真的启用了，查 /health 的 auth_enabled 字段。
+    """
     global _client
     _client = httpx.AsyncClient(
         transport=httpx.ASGITransport(app=app),
         base_url="http://asgi.internal",
         timeout=90.0,
     )
-    return gr.mount_gradio_app(app, build_demo(), path="/ui")
+    kwargs = {}
+    if config.UI_PASSWORD:
+        kwargs["auth"] = _check_login
+        kwargs["auth_message"] = "用户名可留空或随便填，输入访问密码即可进入。"
+    else:
+        logger.warning(
+            "未设置 UI_PASSWORD，/ui 与 /chat 完全开放。"
+            "公开部署请务必在环境变量中配置密码。"
+        )
+    return gr.mount_gradio_app(app, build_demo(), path="/ui", **kwargs)

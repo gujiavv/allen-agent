@@ -15,6 +15,9 @@ os.environ.setdefault("DASHSCOPE_BASE_URL", "https://example.invalid/compatible-
 os.environ.setdefault("DASHSCOPE_MODEL", "qwen-test-model")
 os.environ.setdefault("DASHSCOPE_EMBEDDING_MODEL", "qwen-test-embedding")
 os.environ.setdefault("RAG_SCORE_THRESHOLD", "0.45")
+# 显式置空：本地 .env 里有真实密码，不隔离的话测试会被鉴权挡住，
+# 而且 CI 上（无 .env）和本地的行为会不一致。需要鉴权的测试自行 monkeypatch。
+os.environ.setdefault("UI_PASSWORD", "")
 
 import pytest
 from fastapi.testclient import TestClient
