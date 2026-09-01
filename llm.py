@@ -1,53 +1,38 @@
 # llm.py
-"""百炼大模型客户端。
+"""模型调用入口。真正的逻辑在 gateway/ 里。
 
-trust_env=False: 本机全局代理(HTTPS_PROXY)会让到模型服务的 TLS 握手失败，
-所以让 HTTP 客户端直连、忽略环境变量里的代理。若你的网络必须走代理，改成 True。
+保留这一层薄封装而不是让 rag/pipeline.py 直接调 Gateway：
+调用方的接口（llm.chat / llm.chat_stream）完全没变，底层从裸 SDK 换成
+Gateway 是一次对上层透明的替换。测试里 monkeypatch llm.chat 的写法也照旧有效。
 """
-import httpx
-from openai import OpenAI
+import os
 
-import config
+from gateway import Gateway
 
-client = OpenAI(
-    api_key=config.API_KEY,
-    base_url=config.BASE_URL,
-    http_client=httpx.Client(trust_env=False, timeout=60.0),
+# 进程内单例：Gateway 持有连接池、缓存和计量器，每次请求新建会丢失全部状态。
+gateway = Gateway(
+    max_attempts=int(os.getenv("LLM_MAX_ATTEMPTS", "3")),
+    # 默认 0 表示不限流。线上按需在环境变量里开，例如每个调用方每分钟 20 次。
+    rate_per_min=float(os.getenv("LLM_RATE_PER_MIN", "0")),
+    cache_ttl=float(os.getenv("LLM_CACHE_TTL", "600")),
 )
 
 
-def chat(messages: list[dict], temperature: float = 0.7) -> str:
+def chat(messages: list[dict], temperature: float = 0.7,
+         caller: str | None = None) -> str:
     """调用大模型并取出回复文本。异常由调用方处理。"""
-    response = client.chat.completions.create(
-        model=config.CHAT_MODEL,
-        messages=messages,
-        temperature=temperature,
-    )
-    return response.choices[0].message.content
+    return gateway.chat(messages, temperature=temperature, caller=caller)
 
 
-def chat_stream(messages: list[dict], temperature: float = 0.7):
-    """流式调用，逐段产出 (类型, 文本)。
-
-    类型为 "thinking"（模型的推理过程）或 "content"（正式回答）。
+def chat_stream(messages: list[dict], temperature: float = 0.7,
+                caller: str | None = None):
+    """流式调用，逐段产出 ("thinking"|"content", 文本)。
 
     qwen3.7-plus 默认就会返回 reasoning_content，不需要额外传 enable_thinking。
-    注意推理过程通常是英文的，即使提问和回答都是中文——这是模型行为，
-    提示词左右不了它。
     """
-    stream = client.chat.completions.create(
-        model=config.CHAT_MODEL,
-        messages=messages,
-        temperature=temperature,
-        stream=True,
-    )
-    for chunk in stream:
-        if not chunk.choices:
-            continue
-        delta = chunk.choices[0].delta
-        # reasoning_content 不是 OpenAI 官方字段，用 getattr 取，避免旧版 SDK 报错
-        reasoning = getattr(delta, "reasoning_content", None)
-        if reasoning:
-            yield "thinking", reasoning
-        if delta.content:
-            yield "content", delta.content
+    yield from gateway.chat_stream(messages, temperature=temperature, caller=caller)
+
+
+def stats() -> dict:
+    """用量与缓存统计，供 /gateway/stats 使用。"""
+    return gateway.stats()

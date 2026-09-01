@@ -52,7 +52,9 @@ def test_chat_upstream_error_returns_500(client, monkeypatch):
     def _boom(*args, **kwargs):
         raise RuntimeError("upstream exploded")
 
-    monkeypatch.setattr(llm.client.chat.completions, "create", _boom)
+    monkeypatch.setattr(
+        llm.gateway.providers[0].client.chat.completions, "create", _boom
+    )
     r = client.post("/chat", json={"message": "x"})
     assert r.status_code == 500
     assert "upstream exploded" in r.json()["detail"]

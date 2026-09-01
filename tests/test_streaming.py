@@ -67,7 +67,7 @@ def test_流式_大模型报错时发error事件而不是断流(client, monkeypa
     """流已经开始发送后再报错，没法改 HTTP 状态码，只能用 error 事件告知前端。"""
     import llm
 
-    def _boom(messages, temperature=0.7):
+    def _boom(messages, temperature=0.7, caller=None):
         raise RuntimeError("模型炸了")
         yield  # pragma: no cover
 

@@ -5,11 +5,13 @@ import logging
 import secrets
 from contextlib import asynccontextmanager
 
-from fastapi import Depends, FastAPI, Header, HTTPException
+from fastapi import Depends, FastAPI, Header, HTTPException, Request
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
 import config
+import llm
+from gateway import RateLimited
 from rag import pipeline
 
 logging.basicConfig(level=logging.INFO)
@@ -29,6 +31,19 @@ app = FastAPI(title="我的Agent服务", version=config.APP_VERSION, lifespan=li
 
 class ChatRequest(BaseModel):
     message: str
+
+
+def _caller_key(request: Request) -> str:
+    """限流以谁为单位。
+
+    优先取反向代理透传的真实客户端 IP——Railway 这类平台在前面还有一层代理，
+    直接读 request.client.host 拿到的是代理自己的地址，那样全部用户会共用
+    一个限流桶，一个人刷爆所有人都被拦。
+    """
+    forwarded = request.headers.get("x-forwarded-for", "")
+    if forwarded:
+        return forwarded.split(",")[0].strip()
+    return request.client.host if request.client else "unknown"
 
 
 def require_password(x_api_password: str | None = Header(None)) -> None:
@@ -66,11 +81,16 @@ class ChatResponse(BaseModel):
 
 
 @app.post("/chat", response_model=ChatResponse, dependencies=[Depends(require_password)])
-async def chat(request: ChatRequest):
+async def chat(request: ChatRequest, http_request: Request):
     """核心Agent接口：能从知识库检索到就用文档回答，否则退回大模型自身知识。"""
     try:
-        reply, mode, sources = pipeline.answer(request.message)
+        reply, mode, sources = pipeline.answer(
+            request.message, caller=_caller_key(http_request))
         return ChatResponse(reply=reply, mode=mode, sources=sources)
+    except RateLimited as e:
+        # 429 而不是 500：这是可预期的配额拒绝，客户端应当退避后重试，
+        # 混在 500 里会让调用方以为是服务故障。
+        raise HTTPException(status_code=429, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -107,6 +127,15 @@ async def chat_stream(request: ChatRequest):
         # 关掉 Nginx 一类反向代理的缓冲，否则流式会被攒成一坨再发出来
         headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
     )
+
+
+@app.get("/gateway/stats", dependencies=[Depends(require_password)])
+async def gateway_stats():
+    """Gateway 用量统计：调用次数、token、成本、缓存命中率、各 provider 分布。
+
+    加了鉴权：用量数据能反推出业务量，不该对外公开。
+    """
+    return llm.stats()
 
 
 @app.get("/health")

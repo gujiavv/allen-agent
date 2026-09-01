@@ -18,6 +18,9 @@ os.environ.setdefault("RAG_SCORE_THRESHOLD", "0.45")
 # 显式置空：本地 .env 里有真实密码，不隔离的话测试会被鉴权挡住，
 # 而且 CI 上（无 .env）和本地的行为会不一致。需要鉴权的测试自行 monkeypatch。
 os.environ.setdefault("UI_PASSWORD", "")
+# Gateway 的缓存在测试里必须关掉：多个用例会发同样的消息，命中缓存后
+# 就不会调到 mock，断言「传了什么给模型」会拿到上一个用例的残留。
+os.environ.setdefault("LLM_CACHE_TTL", "0")
 
 import pytest
 from fastapi.testclient import TestClient
@@ -48,14 +51,21 @@ def mock_llm(monkeypatch):
         class _Choice:
             message = _Msg()
 
+        class _Usage:
+            prompt_tokens = 12
+            completion_tokens = 34
+
         class _Resp:
             choices = [_Choice()]
+            usage = _Usage()   # 带上 usage，让 Gateway 的计费链路也被测到
 
         def _create(*args, **kwargs):
             _set.called_with = kwargs
             return _Resp()
 
-        monkeypatch.setattr(llm.client.chat.completions, "create", _create)
+        monkeypatch.setattr(
+            llm.gateway.providers[0].client.chat.completions, "create", _create
+        )
         return _set
 
     return _set
@@ -106,8 +116,9 @@ def mock_llm_stream(monkeypatch):
     """替换流式调用，产出固定的思考 + 正文增量。"""
 
     def _set(thinking="想一想。", content="这是回答。"):
-        def _stream(messages, temperature=0.7):
-            _stream.called_with = {"messages": messages, "temperature": temperature}
+        def _stream(messages, temperature=0.7, caller=None):
+            _stream.called_with = {"messages": messages, "temperature": temperature,
+                                   "caller": caller}
             for ch in thinking:
                 yield "thinking", ch
             for ch in content:

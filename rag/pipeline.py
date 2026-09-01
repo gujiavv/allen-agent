@@ -84,25 +84,25 @@ def _to_sources(hits) -> list[dict]:
     return sources
 
 
-def _plain_answer(message: str) -> tuple[str, str, list]:
-    return llm.chat([{"role": "user", "content": message}]), "llm", []
+def _plain_answer(message: str, caller=None) -> tuple[str, str, list]:
+    return llm.chat([{"role": "user", "content": message}], caller=caller), "llm", []
 
 
-def answer(message: str) -> tuple[str, str, list[dict]]:
+def answer(message: str, caller: str | None = None) -> tuple[str, str, list[dict]]:
     """返回 (回复文本, 模式, 引用列表)。模式为 "rag" 或 "llm"。"""
     store = _get_store()
     if store is None:
-        return _plain_answer(message)
+        return _plain_answer(message, caller)
 
     try:
         hits = rag_store.search(store, message, k=config.RAG_TOP_K)
     except Exception:
         # 检索链路（embedding 接口）出问题不该让整个请求失败，降级继续服务
         logger.exception("检索失败，降级为纯大模型回答")
-        return _plain_answer(message)
+        return _plain_answer(message, caller)
 
     if not hits or hits[0][1] < config.RAG_SCORE_THRESHOLD:
-        return _plain_answer(message)
+        return _plain_answer(message, caller)
 
     # top1 过阈才走这条路；上下文只收同样过阈的块，避免塞进不相关内容
     relevant = [h for h in hits if h[1] >= config.RAG_SCORE_THRESHOLD]
@@ -112,11 +112,12 @@ def answer(message: str) -> tuple[str, str, list[dict]]:
             {"role": "user", "content": message},
         ],
         temperature=0.3,  # 有资料时要贴着资料答，别发挥
+        caller=caller,
     )
     return reply, "rag", _to_sources(relevant)
 
 
-def answer_stream(message: str):
+def answer_stream(message: str, caller: str | None = None):
     """流式版本，逐个产出事件元组：
 
         ("sources", [...])   检索完成，先把命中的文档推给前端
@@ -153,4 +154,4 @@ def answer_stream(message: str):
         messages = [{"role": "user", "content": message}]
         temperature = 0.7
 
-    yield from llm.chat_stream(messages, temperature=temperature)
+    yield from llm.chat_stream(messages, temperature=temperature, caller=caller)
